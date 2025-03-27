@@ -1,0 +1,72 @@
+--------- beginning of main
+03-23 22:17:14.615 28733 28739 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-23 22:17:14.682 28740 28743 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+--------- beginning of system
+03-23 22:17:14.761 23276 24400 E InputMethodManagerService: Ignoring com.android.server.inputmethod.InputMethodManagerService.reportFullscreenMode:5191 due to an invalid token. uid:10121 token:android.os.Binder@48a3fe9
+03-23 22:17:14.772 23958 23958 W KeyboardModeManager: KeyboardModeManager.setInputView():302 setInputView() : inputView = null
+03-23 22:17:14.773 23958 28746 W JobInfoUtil: JobInfoUtil.setJobInfo():55 The max execution delay will be ignored for periodic task: daily_ping_task
+03-23 22:17:14.773 23958 28747 W JobInfoUtil: JobInfoUtil.setJobInfo():55 The max execution delay will be ignored for periodic task: PeriodicTasks
+03-23 22:17:14.775 23958 28747 I JobSchedulerImpl: JobSchedulerImpl.schedule():86 Schedule task: PeriodicTasks. Success.
+03-23 22:17:14.776 23958 28746 I JobSchedulerImpl: JobSchedulerImpl.schedule():86 Schedule task: daily_ping_task. Success.
+03-23 22:17:14.778 23958 23958 I Environment: Environment.getDeviceMode():694 Get device mode by ui mode:1 and smallestScreenWidthDp:411
+03-23 22:17:14.782 23276 24400 I ActivityManager: Killing 27963:com.google.android.calendar/u0a128 (adj 975): empty #17
+03-23 22:17:14.791 23958 28749 I JapaneseMozcExtension: JapaneseMozcExtension.onDestroyServiceInternal():81 onDestroyServiceInternal()
+03-23 22:17:14.813 23958 23958 I ProactiveSuggestionsHolderManager: ProactiveSuggestionsHolderManager.destroy():263 trying to destroy ProactiveSuggestionsHolderManager when keyboardViewController is null
+03-23 22:17:14.814 23958 28750 I ConversationToQueryExtension: ConversationToQueryExtension.onCreate():89 onCreate()
+03-23 22:17:14.817 23238 23238 I Zygote  : Process 27963 exited due to signal 9 (Killed)
+03-23 22:17:14.823 23883 24642 I FontLog : (REDACTED) Received query %s, URI %s
+03-23 22:17:14.826 23883 24642 I FontLog : (REDACTED) Query [%s] resolved to %s
+03-23 22:17:14.834 23276 23307 I libprocessgroup: Successfully killed process cgroup uid 10128 pid 27963 in 45ms
+03-23 22:17:14.854 23883 24642 I FontLog : (REDACTED) Fetch %s end status %s
+03-23 22:17:14.859 23958 24002 I putmethod.lati: Waiting for a blocking GC ProfileSaver
+03-23 22:17:14.870 23958 28750 I ConversationToQueryClientSingleton: ConversationToQueryClientSingleton.register():101 registering client 'Conv2QueryExtension'
+03-23 22:17:14.870 23958 28750 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabled():134 isEnabled() : true
+03-23 22:17:14.871 23958 28750 I ConversationToQueryExtension: ConversationToQueryExtension.isEnabled():141 isConv2QueryDisabledByChevronUi() : false
+03-23 22:17:14.871 23958 28750 I ConversationToQueryExtension: ConversationToQueryExtension.updateCandidateProvider():270 Create MagicGCandidateProvider
+03-23 22:17:14.879 23958 23958 E MaestroExtensionImpl: MaestroExtensionImpl.disconnectFromAssistant():478 disconnectFromAssistant() : Client unexpectedly null.
+03-23 22:17:14.893 23883 24642 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+03-23 22:17:14.906 23958 28750 I ConversationToQueryExtension: ConversationToQueryExtension.onCreate():128 onCreate() : Finished in 92 ms
+03-23 22:17:14.906 23958 28750 I ConversationToQueryExtension: ConversationToQueryExtension.onDestroy():320 onDestroy()
+03-23 22:17:14.907 23958 28750 I ConversationToQueryClientSingleton: ConversationToQueryClientSingleton.deregister():110 deregistering client 'Conv2QueryExtension'
+03-23 22:17:14.907 23958 28750 I ConversationToQueryClientSingleton: ConversationToQueryClientSingleton.deregister():115 number of registered clients: 0
+03-23 22:17:14.907 23958 28750 I ExpressiveConceptsPredictionModuleImpl: ExpressiveConceptsPredictionModuleImpl.onCreate():32 onCreate()
+03-23 22:17:14.914 23883 24642 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+03-23 22:17:14.981 23958 24002 I putmethod.lati: WaitForGcToComplete blocked ProfileSaver on ProfileSaver for 121.489ms
+03-23 22:17:15.003 24116 24593 I eecg    : (REDACTED) Probing voice interaction service recovery for condition(%s).
+03-23 22:17:15.003 24116 24593 I eecg    : (REDACTED) Skipping voice interaction service recovery(%s) for condition(%s).
+03-23 22:17:15.004 24116 24593 I eecg    : (REDACTED) Skipping voice interaction service recovery(%s) for condition(%s).
+03-23 22:17:15.042 23958 28750 I BlacklistManager: BlacklistManager.loadFileBasedBlacklist():65 BlackList is loaded with /data/user/0/com.google.android.inputmethod.latin/files/superpacks/expressive_concepts/2020031023_en/emotion_model_500_entries.blacklist, load result is true
+03-23 22:17:15.042 23958 28750 I ExpressiveConceptsPredictionModuleImpl: ExpressiveConceptsPredictionModuleImpl.setupPredictorIfNeeded():72 Prediction manager has been set up.
+03-23 22:17:15.043 23958 28750 I ExpressiveConceptsPredictionModuleImpl: ExpressiveConceptsPredictionModuleImpl.onDestroy():77 onDestroy()
+03-23 22:17:15.045 23958 28750 I LstmExtension: LstmExtension.onCreate():132 onCreate(): Finished in 2 ms
+03-23 22:17:15.070 28763 28765 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-23 22:17:15.740 28773 28773 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-23 22:17:15.741 28773 28773 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-23 22:17:15.741 28773 28773 I AndroidRuntime: Using default boot image
+03-23 22:17:15.741 28773 28773 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-23 22:17:15.741 28773 28773 I AndroidRuntime: Leaving lock profiling enabled
+03-23 22:17:15.741 28773 28773 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-23 22:17:15.726 28773 28773 W app_process: type=1400 audit(0.0:1635): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-23 22:17:15.738 28773 28773 I chatty  : uid=2000(shell) main identical 2 lines
+03-23 22:17:15.738 28773 28773 W app_process: type=1400 audit(0.0:1638): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-23 22:17:16.070 28773 28773 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-23 22:17:16.082 28773 28773 I app_process: The ClassLoaderContext is a special shared library.
+03-23 22:17:16.115 28773 28773 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-23 22:17:16.776 24116 24453 I bbdx    : (REDACTED) getHotwordActive::active query: %s, watch: %s, devices connected: %s
+03-23 22:17:16.799 28796 28796 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-23 22:17:16.800 28796 28796 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-23 22:17:16.800 28796 28796 I AndroidRuntime: Using default boot image
+03-23 22:17:16.800 28796 28796 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-23 22:17:16.800 28796 28796 I AndroidRuntime: Leaving lock profiling enabled
+03-23 22:17:16.800 28796 28796 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-23 22:17:16.794 28796 28796 W app_process: type=1400 audit(0.0:1639): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-23 22:17:16.798 28796 28796 I chatty  : uid=2000(shell) main identical 2 lines
+03-23 22:17:16.798 28796 28796 W app_process: type=1400 audit(0.0:1642): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-23 22:17:16.931 28796 28796 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-23 22:17:16.934 28796 28796 I app_process: The ClassLoaderContext is a special shared library.
+03-23 22:17:16.950 28796 28796 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-23 22:17:16.968 23276 23292 E RemoteAugmentedAutofillService: Bad service name for flags 1048704: com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiAugmentedAutofillService
+03-23 22:17:17.566 28819 28821 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-23 22:17:17.698   173   173 I servicemanager: Since 'apexservice' could not be found, trying to start it as a lazy AIDL service
+03-23 22:17:18.049   173   173 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+03-23 22:17:18.057   173   173 I servicemanager: Tried to unregister apexservice, but there is about to be a client.

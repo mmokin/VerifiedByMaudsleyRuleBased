@@ -1,0 +1,51 @@
+{
+  "tag": "2025-03-24_002436",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "prompt": null,
+    "view": {
+      "package": "uk.ac.liv.catchit",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": true,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": true,
+      "bounds": [
+        [
+          63,
+          1042
+        ],
+        [
+          1015,
+          1134
+        ]
+      ],
+      "resource_id": "pin",
+      "checked": false,
+      "text": "1234, Choose 4-digit PIN",
+      "class": "android.widget.EditText",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "952*92",
+      "signature": "[class]android.widget.EditText[resource_id]pin[text]1234, Choose 4-digit PIN[enabled,,]",
+      "view_str": "15f34db375955a05a2c88202a57d0056",
+      "content_free_signature": "[class]android.widget.EditText[resource_id]pin"
+    },
+    "x": null,
+    "y": null,
+    "text": "1234"
+  },
+  "start_state": "3c7aa3b1199d358ef1ec26224d843d296143fe7cc85fdab6a1df7bf9021abd4a",
+  "stop_state": "3c7aa3b1199d358ef1ec26224d843d296143fe7cc85fdab6a1df7bf9021abd4a",
+  "event_str": "SetTextEvent(state=3c7aa3b1199d358ef1ec26224d843d296143fe7cc85fdab6a1df7bf9021abd4a, view=15f34db375955a05a2c88202a57d0056(CatchIt/EditText-1234, Choo), text=1234)"
+}

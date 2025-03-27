@@ -1,0 +1,1 @@
+[['Apps list', 6], ['Monday, Mar 24', 13], ['Monday, Mar 24', 13], ['Messages', 17], ['Messages', 17], ['Play Store', 18], ['Play Store', 18], ['Chrome', 19], ['Chrome', 19], ['Voice search', 25], ['Search', 22]]

@@ -1,0 +1,12 @@
+{
+  "tag": "2025-03-24_002329",
+  "event": {
+    "event_type": "kill_app",
+    "log_lines": null,
+    "prompt": null,
+    "stop_intent": "am force-stop uk.ac.liv.catchit"
+  },
+  "start_state": "8ab4a504979b42e82b1cf476bf4bb23d2ffb7d4901d9b92254d8fb22888ac1d2",
+  "stop_state": "8ab4a504979b42e82b1cf476bf4bb23d2ffb7d4901d9b92254d8fb22888ac1d2",
+  "event_str": "KillAppEvent()"
+}

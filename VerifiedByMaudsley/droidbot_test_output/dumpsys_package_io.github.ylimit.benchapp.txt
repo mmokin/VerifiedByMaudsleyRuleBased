@@ -1,0 +1,96 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        cb3f683 io.github.ylimit.benchapp/.MainActivity filter a0e1000
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Registered ContentProviders:
+  io.github.ylimit.benchapp/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{297ba7 io.github.ylimit.benchapp/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+
+ContentProvider Authorities:
+  [io.github.ylimit.benchapp.lifecycle-process]:
+    Provider{297ba7 io.github.ylimit.benchapp/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{6e40c95 io.github.ylimit.benchapp}
+
+Key Set Manager:
+  [io.github.ylimit.benchapp]
+      Signing KeySets: 52
+
+Packages:
+  Package [io.github.ylimit.benchapp] (6f043fd):
+    userId=10169
+    pkg=Package{bb238f2 io.github.ylimit.benchapp}
+    codePath=/data/app/~~3fLY_dd2o-tEjCQfuTMeuQ==/io.github.ylimit.benchapp-kDze-ZRdjWBgKK-9ziERtA==
+    resourcePath=/data/app/~~3fLY_dd2o-tEjCQfuTMeuQ==/io.github.ylimit.benchapp-kDze-ZRdjWBgKK-9ziERtA==
+    legacyNativeLibraryDir=/data/app/~~3fLY_dd2o-tEjCQfuTMeuQ==/io.github.ylimit.benchapp-kDze-ZRdjWBgKK-9ziERtA==/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=1 minSdk=15 targetSdk=29
+    versionName=1.0
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{bb238f2 io.github.ylimit.benchapp}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    dataDir=/data/user/0/io.github.ylimit.benchapp
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+    timeStamp=2025-03-19 01:13:34
+    firstInstallTime=2025-03-19 00:47:30
+    lastUpdateTime=2025-03-19 01:13:34
+    signatures=PackageSignatures{5682b43 version:2, signatures:[66877803], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    User 0: ceDataInode=139428 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      runtime permissions:
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+  queryable via interaction:
+    User 0:
+      [com.android.emulator.multidisplay,com.android.location.fused,com.android.settings,com.android.wallpaperbackup,com.android.keychain,android,com.android.server.telecom,com.android.inputdevices,com.android.localtransport,com.android.dynsystem,com.android.providers.settings]:
+        io.github.ylimit.benchapp
+      com.google.android.inputmethod.latin:
+        io.github.ylimit.benchapp
+
+Package Changes:
+  Sequence number=77
+  User 0:
+    seq=0, package=com.google.android.googlequicksearchbox
+    seq=4, package=com.google.android.gms
+    seq=5, package=com.google.android.webview
+    seq=6, package=com.google.android.trichromelibrary_699803936
+    seq=10, package=com.android.vending
+    seq=76, package=io.github.ylimit.droidbotapp
+
+
+Dexopt state:
+  [io.github.ylimit.benchapp]
+    path: /data/app/~~3fLY_dd2o-tEjCQfuTMeuQ==/io.github.ylimit.benchapp-kDze-ZRdjWBgKK-9ziERtA==/base.apk
+      x86: [status=verify] [reason=boot]
+
+
+Compiler stats:
+  [io.github.ylimit.benchapp]
+    (No recorded stats)
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+

@@ -1,0 +1,103 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        44b732f uk.ac.liv.catchit/.CatchIt filter 6928d3c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Registered ContentProviders:
+  uk.ac.liv.catchit/de.appplant.cordova.emailcomposer.Provider:
+    Provider{eef7add uk.ac.liv.catchit/de.appplant.cordova.emailcomposer.Provider}
+
+ContentProvider Authorities:
+  [uk.ac.liv.catchit.emailcomposer.provider]:
+    Provider{eef7add uk.ac.liv.catchit/de.appplant.cordova.emailcomposer.Provider}
+      applicationInfo=ApplicationInfo{c316bac uk.ac.liv.catchit}
+
+Key Set Manager:
+  [uk.ac.liv.catchit]
+      Signing KeySets: 37
+
+Packages:
+  Package [uk.ac.liv.catchit] (dd86d23):
+    userId=10155
+    pkg=Package{2795220 uk.ac.liv.catchit}
+    codePath=/data/app/~~HJD9YmLQVNA20K1f0ycOJg==/uk.ac.liv.catchit-7ooFVvxage60h8e8n7TyQQ==
+    resourcePath=/data/app/~~HJD9YmLQVNA20K1f0ycOJg==/uk.ac.liv.catchit-7ooFVvxage60h8e8n7TyQQ==
+    legacyNativeLibraryDir=/data/app/~~HJD9YmLQVNA20K1f0ycOJg==/uk.ac.liv.catchit-7ooFVvxage60h8e8n7TyQQ==/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=20500 minSdk=16 targetSdk=28
+    versionName=2.5
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{2795220 uk.ac.liv.catchit}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    dataDir=/data/user/0/uk.ac.liv.catchit
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+    timeStamp=2025-03-16 01:43:44
+    firstInstallTime=2025-03-16 01:43:44
+    lastUpdateTime=2025-03-16 01:43:44
+    signatures=PackageSignatures{96de7d9 version:2, signatures:[abcd6f93], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+    install permissions:
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+    User 0: ceDataInode=131944 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      gids=[3003]
+      runtime permissions:
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+  queryable via interaction:
+    User 0:
+      [com.android.dynsystem,com.android.wallpaperbackup,com.android.keychain,com.android.emulator.multidisplay,com.android.providers.settings,android,com.android.inputdevices,com.android.location.fused,com.android.server.telecom,com.android.localtransport,com.android.settings]:
+        uk.ac.liv.catchit
+      [com.google.android.gms,com.google.android.gsf]:
+        uk.ac.liv.catchit
+      com.google.android.webview:
+        uk.ac.liv.catchit
+      uk.ac.liv.catchit:
+        com.google.android.webview
+
+Package Changes:
+  Sequence number=8
+  User 0:
+    seq=3, package=com.google.android.gms
+    seq=7, package=io.github.ylimit.droidbotapp
+
+
+Dexopt state:
+  [uk.ac.liv.catchit]
+    path: /data/app/~~HJD9YmLQVNA20K1f0ycOJg==/uk.ac.liv.catchit-7ooFVvxage60h8e8n7TyQQ==/base.apk
+      x86: [status=speed-profile] [reason=install]
+
+
+Compiler stats:
+  [uk.ac.liv.catchit]
+    (No recorded stats)
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+

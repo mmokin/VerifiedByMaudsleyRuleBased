@@ -1,0 +1,134 @@
+--------- beginning of main
+03-19 00:28:52.174 14363 14365 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-19 00:28:52.228 14368 14370 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-19 00:28:52.278 14373 14375 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-19 00:28:52.684 14395 14397 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-19 00:28:52.793 14403 14405 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-19 00:28:53.094   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+03-19 00:28:53.094 14417 14419 I Gralloc4: mapper 4.x is not supported
+03-19 00:28:53.103   176   176 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device manifest.
+03-19 00:28:53.104 14417 14419 W Gralloc4: allocator 3.x is not supported
+03-19 00:28:55.184 14433 14435 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-19 00:28:55.210 14439 14441 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-19 00:28:55.240 14442 14445 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-19 00:28:55.275  1212  1212 W KeyboardModeManager: KeyboardModeManager.setInputView():302 setInputView() : inputView = null
+03-19 00:28:55.278  1212  1212 I ProactiveSuggestionsHolderManager: ProactiveSuggestionsHolderManager.destroy():263 trying to destroy ProactiveSuggestionsHolderManager when keyboardViewController is null
+03-19 00:28:55.293  1212 14451 I JapaneseMozcExtension: JapaneseMozcExtension.onDestroyServiceInternal():81 onDestroyServiceInternal()
+03-19 00:28:55.308  1212  1212 E MaestroExtensionImpl: MaestroExtensionImpl.disconnectFromAssistant():478 disconnectFromAssistant() : Client unexpectedly null.
+03-19 00:28:55.350 14199 14213 I mit.droidbotap: Background young concurrent copying GC freed 16285(777KB) AllocSpace objects, 40(908KB) LOS objects, 46% free, 2033KB/3804KB, paused 5.420ms total 27.388ms
+03-19 00:28:55.456 14466 14468 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-19 00:28:55.734 14476 14476 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-19 00:28:55.735 14476 14476 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-19 00:28:55.735 14476 14476 I AndroidRuntime: Using default boot image
+03-19 00:28:55.735 14476 14476 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-19 00:28:55.735 14476 14476 I AndroidRuntime: Leaving lock profiling enabled
+03-19 00:28:55.735 14476 14476 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-19 00:28:55.737 14476 14476 W app_process: Could not reserve sentinel fault page
+03-19 00:28:55.731 14476 14476 W app_process: type=1400 audit(0.0:248): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=10295 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-19 00:28:55.805 14476 14476 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-19 00:28:55.807 14476 14476 I app_process: The ClassLoaderContext is a special shared library.
+03-19 00:28:55.819 14476 14476 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-19 00:28:56.238 14501 14503 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-19 00:28:56.344 14509 14509 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-19 00:28:56.345 14509 14509 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-19 00:28:56.345 14509 14509 I AndroidRuntime: Using default boot image
+03-19 00:28:56.345 14509 14509 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-19 00:28:56.345 14509 14509 I AndroidRuntime: Leaving lock profiling enabled
+03-19 00:28:56.345 14509 14509 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-19 00:28:56.347 14509 14509 W app_process: Could not reserve sentinel fault page
+03-19 00:28:56.339 14509 14509 W app_process: type=1400 audit(0.0:252): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=10295 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-19 00:28:56.401 14509 14509 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-19 00:28:56.402 14509 14509 I app_process: The ClassLoaderContext is a special shared library.
+03-19 00:28:56.413 14509 14509 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+--------- beginning of system
+03-19 00:28:56.424   534   550 E RemoteAugmentedAutofillService: Bad service name for flags 1048704: com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiAugmentedAutofillService
+03-19 00:28:56.958 14533 14535 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-19 00:28:56.999  6958  6958 I abb     : StartCommandInProcess(73657474696e67730067657400656e61 settings.get.ena [truncated])
+03-19 00:28:57.002  6958  7669 I abb     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-19 00:28:56.999   534   534 W Binder:534_C: type=1400 audit(0.0:256): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+03-19 00:28:57.011  6958  6958 I abb     : StartCommandInProcess(7061636b61676500696e7374616c6c00 package.install. [truncated])
+03-19 00:28:56.999   534   534 W Binder:534_C: type=1400 audit(0.0:257): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+03-19 00:28:57.031 14542 14544 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-19 00:28:57.035   534   534 W Binder:534_C: type=1400 audit(0.0:259): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+03-19 00:28:57.072   534   629 W RuleEvaluation: Integrity rule files are not available.
+03-19 00:28:57.072   534   581 I PackageManager: Integrity check passed for file:///data/app/vmdl1544597670.tmp
+03-19 00:28:57.113   424  1275 E installd: Couldn't opendir /data/app/vmdl1544597670.tmp: No such file or directory
+03-19 00:28:57.113   424  1275 E installd: Failed to delete /data/app/vmdl1544597670.tmp: No such file or directory
+03-19 00:28:57.114  6958  7669 I abb     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-19 00:28:57.111   534   534 W Binder:534_C: type=1400 audit(0.0:260): avc: denied { getopt } for scontext=u:r:system_server:s0 tcontext=u:r:shell:s0 tclass=unix_stream_socket permissive=0
+03-19 00:28:57.126  1318  1318 I MediaProvider: Invalidating LocalCallingIdentity cache for package io.github.ylimit.benchapp. Reason: package android.intent.action.PACKAGE_ADDED
+03-19 00:28:57.131   534   549 I RoleManagerService: Granting default roles...
+03-19 00:28:57.144  1342  1342 I facx    : (REDACTED) O received %s
+03-19 00:28:57.148   534   620 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS | 
+03-19 00:28:57.164  6532  6532 I Finsky:background: [2] acao.g(6): acao - Received: android.intent.action.PACKAGE_ADDED, [pIba3I9NU-bFrCb95UMI7-FY6OGEcH1Bq8Kaxu6BxOA]
+03-19 00:28:57.166  7238  7238 I Finsky  : [2] acay.g(1): acay - Received: android.intent.action.PACKAGE_ADDED, [pIba3I9NU-bFrCb95UMI7-FY6OGEcH1Bq8Kaxu6BxOA]
+03-19 00:28:57.167   534  1428 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:io.github.ylimit.benchapp flg=0x4000010 (has extras) } to com.google.android.packageinstaller/com.android.packageinstaller.PackageInstalledReceiver
+03-19 00:28:57.199   534   560 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:io.github.ylimit.benchapp flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.impl.PackageMonitorReceiverImpl$RegisteredReceiver
+03-19 00:28:57.199   534   560 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:io.github.ylimit.benchapp flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemonitor.backgroundimpl.BackgroundPackageMonitorReceiverImpl$RegisteredReceiver
+03-19 00:28:57.200   534   560 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:io.github.ylimit.benchapp flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+03-19 00:28:57.200   534   560 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:io.github.ylimit.benchapp flg=0x4000010 (has extras) } to com.google.android.gms/.games.chimera.GamesSystemBroadcastReceiverProxy
+03-19 00:28:57.204  7238  7238 I Finsky  : [2] wcl.jA(13): DTU: Received onPackageAdded, replacing: false
+03-19 00:28:57.215  6532 14546 I Finsky:background: [642] rkz.accept(103): Wrote row to frosting DB: 275
+03-19 00:28:57.216   534   560 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:io.github.ylimit.benchapp flg=0x4000010 (has extras) } to com.google.android.gms/.gass.chimera.PackageChangeBroadcastReceiver
+03-19 00:28:57.221   534   560 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:io.github.ylimit.benchapp flg=0x4000010 (has extras) } to com.google.android.ims/.receivers.RcsAutoStartReceiver
+03-19 00:28:57.227  7238  7238 I Finsky  : [2] airn.f(9): Clearing split related stale data.
+03-19 00:28:57.229  6532 14546 I Finsky:background: [642] rkz.accept(103): Wrote row to frosting DB: 276
+03-19 00:28:57.232   534   534 I Telecom : DefaultDialerCache: Refreshing default dialer for user 0: now com.android.dialer: DDC.oR@AKE
+03-19 00:28:57.247  7238  7238 I Finsky  : [2] aqto.c(44): Do not start WearSupportService due to Wear service optimization
+03-19 00:28:57.274  6967  6983 I PermissionControllerServiceImpl: Updating user sensitive for uid 10166
+03-19 00:28:57.289  7453  7473 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+03-19 00:28:57.298  1638 14558 I Auth    : (REDACTED) [SupervisedAccountIntentOperationV2] onHandleIntent: %s
+03-19 00:28:57.300  1170 14559 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:io.github.ylimit.benchapp flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+03-19 00:28:57.301  1638 14558 I Blockstore: (REDACTED) [DataStoreImpl] Clearing Blockstore Data for package %s
+03-19 00:28:57.301  1170 14560 I FontLog : (REDACTED) Package %s has no metadata
+03-19 00:28:57.302  1170 14560 W NetworkScheduler: Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:io.github.ylimit.benchapp flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+03-19 00:28:57.302  1638 14558 I Blockstore: [DataStoreImpl] Keyless data not found or its IsLastInstallationData = false. [CONTEXT service_id=258 ]
+03-19 00:28:57.303  1638 14558 I Dck     : (REDACTED) disableDckSupport: %s
+03-19 00:28:57.303  1638 14558 W Dck     : [WirelessCapabilitiesFeatures] wccSysProp: 0 [CONTEXT service_id=289 ]
+03-19 00:28:57.303  1638 14558 I Dck     : [WirelessCapabilitiesFeatures] wccMendel: 3 [CONTEXT service_id=289 ]
+03-19 00:28:57.303  1638 14558 I Dck     : [WirelessCapabilitiesFeatures] deviceWccOverride: false [CONTEXT service_id=289 ]
+03-19 00:28:57.303  1638 14558 I Dck     : [WirelessCapabilitiesFeatures] replaceSupportedWccWithWccOverride: true [CONTEXT service_id=289 ]
+03-19 00:28:57.303  1638 14558 I Dck     : [WirelessCapabilitiesFeatures] wccOverride: not set [CONTEXT service_id=289 ]
+03-19 00:28:57.303  1638 14558 I Dck     : (REDACTED) [WirelessCapabilitiesFeatures] wcc: %s
+03-19 00:28:57.303  1638 14558 I Dck     : Dck module condition - hasWccSupport: false [CONTEXT service_id=289 ]
+03-19 00:28:57.303  1638 14558 I Dck     : Dck module condition - downloadAllowed: false [CONTEXT service_id=289 ]
+03-19 00:28:57.304  1638 14558 W Dck     : Dck module not eligible for asynchronous downloading [CONTEXT service_id=289 ]
+03-19 00:28:57.308  7238  7287 I Finsky  : [628] rwa.accept(59): SCH: Scheduling phonesky job Id: 12-1, CT: 1742344137233, Constraints: [{ L: 15000, D: 86400000, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+03-19 00:28:57.312  7238  7287 I Finsky  : [628] ndp.apply(254): SCH: Scheduling 1 system job(s)
+03-19 00:28:57.312  7238  7287 I Finsky  : [628] ahfi.b(261): SCH: Scheduling system job Id: 9627, L: 14921, D: 65171587, C: false, I: false, N: 1
+03-19 00:28:57.315   534   543 I system_server: Background concurrent copying GC freed 294727(15MB) AllocSpace objects, 107(4084KB) LOS objects, 49% free, 17MB/35MB, paused 384us total 202.819ms
+03-19 00:28:57.375  1638  2068 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=36
+03-19 00:28:57.378  7238  7267 I Finsky  : [612] pcb.kj(177): [ContentSync] finished, scheduled=true
+03-19 00:28:57.381   534   545 W System  : A resource failed to call release. 
+03-19 00:28:57.390   534   545 I chatty  : uid=1000(system) FinalizerDaemon identical 10 lines
+03-19 00:28:57.390   534   545 W System  : A resource failed to call release. 
+03-19 00:28:57.406  1638  2029 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30
+03-19 00:28:57.417  1638 12679 I Icing   : Usage reports ok 1, Failed Usage reports 0, indexed 0, rejected 0
+03-19 00:28:57.442  1638 12679 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+03-19 00:28:57.444  1638 12679 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+03-19 00:28:57.452  1638 12679 I Icing   : Indexing done com.google.android.gms-apps
+03-19 00:28:57.521 14583 14585 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-19 00:28:59.154 14597 14599 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-19 00:28:59.228   173   173 I servicemanager: Since 'apexservice' could not be found, trying to start it as a lazy AIDL service
+03-19 00:28:59.321   173   173 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+03-19 00:28:59.326   173   173 I servicemanager: Tried to unregister apexservice, but there is about to be a client.
+03-19 00:28:59.735 14626 14628 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-19 00:28:59.933   534  1463 I ActivityManager: Force stopping io.github.ylimit.benchapp appid=10166 user=0: from pid 14638
+03-19 00:28:59.939 14638 14640 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-19 00:29:00.071 14641 14641 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-19 00:29:00.071 14641 14641 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-19 00:29:00.072 14641 14641 I AndroidRuntime: Using default boot image
+03-19 00:29:00.072 14641 14641 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-19 00:29:00.072 14641 14641 I AndroidRuntime: Leaving lock profiling enabled
+03-19 00:29:00.072 14641 14641 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-19 00:29:00.074 14641 14641 W app_process: Could not reserve sentinel fault page
+03-19 00:29:00.067 14641 14641 W app_process: type=1400 audit(0.0:263): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=10295 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-19 00:29:00.134 14641 14641 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-19 00:29:00.136 14641 14641 I app_process: The ClassLoaderContext is a special shared library.
+03-19 00:29:00.154 14641 14641 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-19 00:29:00.158 14661 14663 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-19 00:29:00.168   534   550 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras)} from uid 0
+03-19 00:29:00.186   534  1463 W ActivityManager: Unable to start service Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } U=0: not found
+03-19 00:29:00.186   534  1463 W RemoteAppPredictionService: could not bind to Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } using flags 67108865
+03-19 00:29:01.963   173   173 I servicemanager: Notifying apexservice they have clients: 1
+03-19 00:29:01.978 14695 14697 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4

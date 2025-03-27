@@ -1,0 +1,39 @@
+{
+  "visited_states": [],
+  "visited_sections": {
+    "Navigation Menu": false,
+    "Main Features": false
+  },
+  "app_specific_data": {
+    "notes": "Use the pin 1234 when asked."
+  },
+  "navigation_history": [],
+  "critical_elements": {
+    "Navigation Menu": {
+      "keywords": [
+        "navigation",
+        "drawer",
+        "menu",
+        "hamburger"
+      ],
+      "found_elements": []
+    },
+    "Main Features": {
+      "keywords": [
+        "home",
+        "settings",
+        "gallery",
+        "slideshow",
+        "tool"
+      ],
+      "found_elements": []
+    }
+  },
+  "gpt_insights": [],
+  "assessment_data": {
+    "gpt_insights": [],
+    "assessment_results": {},
+    "visited_section_elements": {}
+  },
+  "visited_states_count": 0
+}

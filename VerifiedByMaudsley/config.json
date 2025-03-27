@@ -1,0 +1,52 @@
+{
+  "credentials": [
+    {
+      "username": "test_user",
+      "password": "test_password"
+    }
+  ],
+  "critical_sections": [
+    {
+      "name": "Navigation Menu",
+      "keywords": ["navigation", "drawer", "menu", "hamburger"]
+    },
+    {
+      "name": "Main Features",
+      "keywords": ["home", "settings", "gallery", "slideshow", "tool"]
+    }
+  ],
+  "unique_screens": 8,
+  "app_notes": [
+    {
+      "notes": "Use the pin 1234 when asked."
+    }
+  ],
+  "task": "Explore the navigation menu and 8 unique screens of the app, then finish the assessment",
+  "assessments": {
+    "color_report": true,
+    "navigation_report": true,
+    "button_report": true,
+    "use_opencv_color_analysis": true
+  },
+  "droidbot": {
+    "timeout": 240,
+    "event_count": 50,
+    "policy": "task",
+    "device_serial": "emulator-5554",
+    "random_input": false,
+    "interval": 2,
+    "use_cv": false,
+    "is_emulator": true,
+    "disable_minicap": true,
+    "debug_mode": false
+  },
+  "memory_settings": {
+    "avoid_revisits": true,
+    "use_app_notes": true,
+    "use_memory": false,
+    "baseline_data_path": "memory/baseline_data.json"
+  },
+  "api_keys": {
+    "openai": "YOUR_OPENAI_API_KEY_HERE"
+  }
+}

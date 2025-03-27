@@ -1,0 +1,49 @@
+usage: start.py [-h] [-d DEVICE_SERIAL] -a APK_PATH [-o OUTPUT_DIR]
+                [-policy INPUT_POLICY] [-distributed {master,worker}]
+                [-master MASTER] [-qemu_hda QEMU_HDA] [-qemu_no_graphic]
+                [-script SCRIPT_PATH] [-count COUNT] [-interval INTERVAL]
+                [-timeout TIMEOUT] [-cv] [-debug] [-random] [-keep_app]
+                [-keep_env] [-use_method_profiling PROFILING_METHOD]
+                [-grant_perm] [-is_emulator] [-accessibility_auto]
+                [-humanoid HUMANOID] [-ignore_ad]
+                [-replay_output REPLAY_OUTPUT]
+
+Start DroidBot to test an Android app.
+
+options:
+  -h, --help            show this help message and exit
+  -d DEVICE_SERIAL      The serial number of target device (use `adb devices` to find)
+  -a APK_PATH           The file path to target APK
+  -o OUTPUT_DIR         directory of output
+  -policy INPUT_POLICY  Policy to use for test input generation. Default: dfs_greedy.
+                        Supported policies:
+                          "none" -- No event will be sent, user should interact manually with device; 
+                          "monkey" -- Use "adb shell monkey" to send events; 
+                          "dfs_naive" -- Explore UI using a naive depth-first strategy;
+                          "dfs_greedy" -- Explore UI using a greedy depth-first strategy;
+                          "bfs_naive" -- Explore UI using a naive breadth-first strategy;
+                          "bfs_greedy" -- Explore UI using a greedy breadth-first strategy;
+  -distributed {master,worker}
+                        Start DroidBot in distributed mode.
+  -master MASTER        DroidMaster's RPC address
+  -qemu_hda QEMU_HDA    The QEMU's hda image
+  -qemu_no_graphic      Run QEMU with -nograpihc parameter
+  -script SCRIPT_PATH   Use a script to customize input for certain states.
+  -count COUNT          Number of events to generate in total. Default: 100000000
+  -interval INTERVAL    Interval in seconds between each two events. Default: 1
+  -timeout TIMEOUT      Timeout in seconds, -1 means unlimited. Default: -1
+  -cv                   Use OpenCV (instead of UIAutomator) to identify UI components. CV mode requires opencv-python installed.
+  -debug                Run in debug mode (dump debug messages).
+  -random               Add randomness to input events.
+  -keep_app             Keep the app on the device after testing.
+  -keep_env             Keep the test environment (eg. minicap and accessibility service) after testing.
+  -use_method_profiling PROFILING_METHOD
+                        Record method trace for each event. can be "full" or a sampling rate.
+  -grant_perm           Grant all permissions while installing. Useful for Android 6.0+.
+  -is_emulator          Declare the target device to be an emulator, which would be treated specially by DroidBot.
+  -accessibility_auto   Enable the accessibility service automatically even though it might require device restart
+                        (can be useful for Android API level < 23).
+  -humanoid HUMANOID    Connect to a Humanoid service (addr:port) for more human-like behaviors.
+  -ignore_ad            Ignore Ad views by checking resource_id.
+  -replay_output REPLAY_OUTPUT
+                        The droidbot output directory being replayed.

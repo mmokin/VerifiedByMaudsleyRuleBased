@@ -1,0 +1,107 @@
+com.google.android.googlequicksearchbox/com.google.android.voicesearch.ime.VoiceInputMethodService:
+  mId=com.google.android.googlequicksearchbox/com.google.android.voicesearch.ime.VoiceInputMethodService mSettingsActivityName=com.google.android.libraries.speech.transcription.voiceime.standalone.settings.VoiceImeSettingsActivity mIsVrOnly=false mSupportsSwitchingToNextInputMethod=false mInlineSuggestionsEnabled=false
+  mIsDefaultResId=0x0
+  Service:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    ServiceInfo:
+      name=com.google.android.voicesearch.ime.VoiceInputMethodService
+      packageName=com.google.android.googlequicksearchbox
+      labelRes=0x7f153745 nonLocalizedLabel=null icon=0x0 banner=0x0
+      processName=com.google.android.googlequicksearchbox:search
+      enabled=true exported=true directBootAware=false
+      permission=android.permission.BIND_INPUT_METHOD
+      flags=0x0
+      ApplicationInfo:
+        name=com.google.android.apps.gsa.binaries.velvet.app.VelvetMultiprocessRoot_Application
+        packageName=com.google.android.googlequicksearchbox
+        labelRes=0x7f150109 nonLocalizedLabel=null icon=0x7f110010 banner=0x0
+        className=com.google.android.apps.gsa.binaries.velvet.app.VelvetMultiprocessRoot_Application
+        processName=com.google.android.googlequicksearchbox
+        taskAffinity=null
+        uid=10109 flags=0x28dbbec5 privateFlags=0x8c080518 theme=0x7f160e5b
+        requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+        sourceDir=/data/app/~~cztES0ig8EotFr64f5X4eg==/com.google.android.googlequicksearchbox-TMZUOxXWepAsfxJXIXHMWg==/base.apk
+        splitSourceDirs=[/data/app/~~cztES0ig8EotFr64f5X4eg==/com.google.android.googlequicksearchbox-TMZUOxXWepAsfxJXIXHMWg==/split_config.xxhdpi.apk]
+        seinfo=default:privapp:targetSdkVersion=30
+        seinfoUser=:complete
+        dataDir=/data/user/0/com.google.android.googlequicksearchbox
+        deviceProtectedDataDir=/data/user_de/0/com.google.android.googlequicksearchbox
+        credentialProtectedDataDir=/data/user/0/com.google.android.googlequicksearchbox
+        sharedLibraryFiles=[/system/framework/org.apache.http.legacy.jar, /system_ext/framework/androidx.window.sidecar.jar]
+        splitClassLoaderNames=[null]
+        enabled=true minSdkVersion=28 targetSdkVersion=35 versionCode=301478971 targetSandboxVersion=1
+        supportsRtl=true
+        fullBackupContent=true
+        crossProfile=true
+        networkSecurityConfigRes=0x7f190135
+        category=7
+        HiddenApiEnforcementPolicy=2
+        usesNonSdkApi=false
+        allowsPlaybackCapture=true
+com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME:
+  mId=com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME mSettingsActivityName=com.google.android.apps.inputmethod.latin.preference.SettingsActivity mIsVrOnly=false mSupportsSwitchingToNextInputMethod=true mInlineSuggestionsEnabled=true
+  mIsDefaultResId=0x7f050017
+  Service:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    ServiceInfo:
+      name=com.android.inputmethod.latin.LatinIME
+      packageName=com.google.android.inputmethod.latin
+      labelRes=0x7f130337 nonLocalizedLabel=null icon=0x0 banner=0x0
+      enabled=true exported=true directBootAware=true
+      permission=android.permission.BIND_INPUT_METHOD
+      flags=0x0
+      ApplicationInfo:
+        name=com.google.android.apps.inputmethod.latin.ImeLatinApp
+        packageName=com.google.android.inputmethod.latin
+        labelRes=0x7f130337 nonLocalizedLabel=null icon=0x7f100003 banner=0x0
+        className=com.google.android.apps.inputmethod.latin.ImeLatinApp
+        processName=com.google.android.inputmethod.latin
+        taskAffinity=com.google.android.inputmethod.latin
+        uid=10121 flags=0x30cabe45 privateFlags=0x8c081110 theme=0x7f14001a
+        requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+        sourceDir=/product/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt.apk
+        seinfo=default:targetSdkVersion=29
+        seinfoUser=:complete
+        dataDir=/data/user/0/com.google.android.inputmethod.latin
+        deviceProtectedDataDir=/data/user_de/0/com.google.android.inputmethod.latin
+        credentialProtectedDataDir=/data/user/0/com.google.android.inputmethod.latin
+        sharedLibraryFiles=[/system/framework/android.test.base.jar]
+        enabled=true minSdkVersion=21 targetSdkVersion=29 versionCode=26941123 targetSandboxVersion=1
+        supportsRtl=true
+        fullBackupContent=true
+        crossProfile=false
+        HiddenApiEnforcementPolicy=2
+        usesNonSdkApi=false
+        allowsPlaybackCapture=true
+io.github.ylimit.droidbotapp/.DroidBotIME:
+  mId=io.github.ylimit.droidbotapp/.DroidBotIME mSettingsActivityName=null mIsVrOnly=false mSupportsSwitchingToNextInputMethod=false mInlineSuggestionsEnabled=false
+  mIsDefaultResId=0x0
+  Service:
+    priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+    ServiceInfo:
+      name=io.github.ylimit.droidbotapp.DroidBotIME
+      packageName=io.github.ylimit.droidbotapp
+      enabled=true exported=true directBootAware=false
+      permission=android.permission.BIND_INPUT_METHOD
+      flags=0x0
+      ApplicationInfo:
+        packageName=io.github.ylimit.droidbotapp
+        labelRes=0x7f0c001e nonLocalizedLabel=null icon=0x7f0b0000 banner=0x0
+        processName=io.github.ylimit.droidbotapp
+        taskAffinity=io.github.ylimit.droidbotapp
+        uid=10165 flags=0x38e8be46 privateFlags=0xa4801000 theme=0x7f0d0005
+        requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+        sourceDir=/data/app/~~6ufLVJ9k-0r3EmAhd4NKrw==/io.github.ylimit.droidbotapp-oUYF9Zo1uZCxEtNVF5kWGA==/base.apk
+        seinfo=default:targetSdkVersion=27
+        seinfoUser=:complete
+        dataDir=/data/user/0/io.github.ylimit.droidbotapp
+        deviceProtectedDataDir=/data/user_de/0/io.github.ylimit.droidbotapp
+        credentialProtectedDataDir=/data/user/0/io.github.ylimit.droidbotapp
+        sharedLibraryFiles=[/system/framework/android.test.base.jar, /system/framework/org.apache.http.legacy.jar]
+        enabled=true minSdkVersion=16 targetSdkVersion=27 versionCode=1 targetSandboxVersion=1
+        supportsRtl=true
+        fullBackupContent=true
+        crossProfile=false
+        HiddenApiEnforcementPolicy=2
+        usesNonSdkApi=false
+        allowsPlaybackCapture=false

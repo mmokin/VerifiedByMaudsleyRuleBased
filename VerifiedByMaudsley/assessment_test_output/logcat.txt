@@ -1,0 +1,879 @@
+--------- beginning of main
+03-24 00:23:21.296  9988  9990 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:21.749 10005 10008 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:21.808 10009 10012 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:22.096 10024 10026 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:23.607 10034 10034 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:23:23.608 10034 10034 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:23:23.608 10034 10034 I AndroidRuntime: Using default boot image
+03-24 00:23:23.608 10034 10034 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:23:23.609 10034 10034 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:23:23.610 10034 10034 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:23:23.601 10034 10034 W app_process: type=1400 audit(0.0:1708): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:23:23.605 10034 10034 I chatty  : uid=2000(shell) app_process identical 2 lines
+03-24 00:23:23.605 10034 10034 W app_process: type=1400 audit(0.0:1711): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:23:23.678 10034 10034 W app_process: Could not reserve sentinel fault page
+03-24 00:23:24.502 24552 24552 I GmsCoreXrpcWrapper: (REDACTED) Returning a channel provider with trafficStatsTag=%d trafficStatsUid=%d
+03-24 00:23:24.543 23883 10040 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+03-24 00:23:24.745 23883 24509 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+--------- beginning of system
+03-24 00:23:24.798 23276 23306 I ActivityManager: Start proc 10041:com.google.android.gms.unstable/u0a108 for service {com.google.android.gms/com.google.android.gms.droidguard.DroidGuardService}
+03-24 00:23:24.857 10041 10041 W id.gms.unstabl: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:23:24.906 10041 10041 E id.gms.unstabl: Not starting debugger since process cannot load the jdwp agent.
+03-24 00:23:24.983 10041 10041 I id.gms.unstabl: The ClassLoaderContext is a special shared library.
+03-24 00:23:25.021 10041 10041 I chatty  : uid=10108 com.google.android.gms.unstable identical 1 line
+03-24 00:23:25.054 10041 10041 I id.gms.unstabl: The ClassLoaderContext is a special shared library.
+03-24 00:23:25.130 10041 10041 W id.gms.unstabl: JIT profile information will not be recorded: profile file does not exist.
+03-24 00:23:25.130 10041 10041 W id.gms.unstabl: JIT profile information will not be recorded: profile file does not exist.
+03-24 00:23:25.659 10041 10041 W ProviderHelper: Unknown dynamite feature providerinstaller.dynamite
+03-24 00:23:25.662 10041 10041 I DynamiteModule: Considering local module com.google.android.gms.providerinstaller.dynamite:1 and remote module com.google.android.gms.providerinstaller.dynamite:0
+03-24 00:23:25.662 10041 10041 I DynamiteModule: Selected local version of com.google.android.gms.providerinstaller.dynamite
+03-24 00:23:25.833 10034 10034 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:23:25.864 10034 10034 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:23:25.984 10041 10069 I CondFlagRegistrar: Registered for com.google.android.gms.providerinstaller#com.google.android.gms
+03-24 00:23:26.056 10034 10034 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-24 00:23:26.188 10041 10041 I ProviderInstaller: Installed default security provider GmsCore_OpenSSL
+03-24 00:23:26.658 10041 10092 I Watchcat: Started
+03-24 00:23:26.722 10041 10092 I GMS_MM_Logger: (REDACTED) Start time: %s
+03-24 00:23:26.724 10041 10092 I GMS_MM_Logger: Started.
+03-24 00:23:26.781 10109 10110 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:26.926 10041 10053 I id.gms.unstabl: Background young concurrent copying GC freed 37522(2500KB) AllocSpace objects, 8(152KB) LOS objects, 89% free, 2923KB/26MB, paused 7.310ms total 102.890ms
+03-24 00:23:26.978 10117 10117 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:23:26.979 10117 10117 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:23:26.979 10117 10117 I AndroidRuntime: Using default boot image
+03-24 00:23:26.979 10117 10117 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:23:26.979 10117 10117 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:23:26.979 10117 10117 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:23:26.973 10117 10117 W app_process: type=1400 audit(0.0:1712): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:23:27.327 10041 10057 E libc    : Access denied finding property "persist.adb.tls_server.enable"
+03-24 00:23:27.321 10041 10041 W Binder:10041_1: type=1400 audit(0.0:1716): avc: denied { read } for name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=9479 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+03-24 00:23:27.544 24552 27309 I Checkin : [CheckinApiChimeraService] onGetService
+03-24 00:23:27.600 10117 10117 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:23:27.604 10117 10117 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:23:27.629 10117 10117 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-24 00:23:27.643 23883 24509 W GmsUrlRequestImpl: Content-Type header is overwritten.
+03-24 00:23:27.657 23276 23292 E RemoteAugmentedAutofillService: Bad service name for flags 1048704: com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiAugmentedAutofillService
+03-24 00:23:27.944 23883 24509 W GLSUser : [AppCertManager] Exception while requesting key: 
+03-24 00:23:27.944 23883 24509 W GLSUser : java.util.concurrent.ExecutionException: bxcq: Parse Proto Exception with response code 400
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at esez.s(:com.google.android.gms@250832025@25.08.32 (150700-731361394):21)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at esez.get(:com.google.android.gms@250832025@25.08.32 (150700-731361394):10)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at abjc.b(:com.google.android.gms@250832025@25.08.32 (150700-731361394):454)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at abja.a(:com.google.android.gms@250832025@25.08.32 (150700-731361394):69)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at abja.fm(:com.google.android.gms@250832025@25.08.32 (150700-731361394):16)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at qmv.onTransact(:com.google.android.gms@250832025@25.08.32 (150700-731361394):97)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at android.os.Binder.transact(Binder.java:1043)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at bpqc.onTransact(:com.google.android.gms@250832025@25.08.32 (150700-731361394):10)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at android.os.Binder.transact(Binder.java:1043)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at bgux.onTransact(:com.google.android.gms@250832025@25.08.32 (150700-731361394):148)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at android.os.Binder.execTransactInternal(Binder.java:1159)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at android.os.Binder.execTransact(Binder.java:1123)
+03-24 00:23:27.944 23883 24509 W GLSUser : Caused by: bxcq: Parse Proto Exception with response code 400
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at bxds.b(:com.google.android.gms@250832025@25.08.32 (150700-731361394):80)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at bxgm.d(:com.google.android.gms@250832025@25.08.32 (150700-731361394):18)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at bxha.onSucceeded(:com.google.android.gms@250832025@25.08.32 (150700-731361394):9)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at m.li.onSucceeded(:com.google.android.gms.dynamite_cronetdynamite@250832025@25.08.32 (150700-0):3)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at m.kg.run(:com.google.android.gms.dynamite_cronetdynamite@250832025@25.08.32 (150700-0):25)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at m.ka.run(:com.google.android.gms.dynamite_cronetdynamite@250832025@25.08.32 (150700-0):31)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at arvc.c(:com.google.android.gms@250832025@25.08.32 (150700-731361394):50)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at arvc.run(:com.google.android.gms@250832025@25.08.32 (150700-731361394):76)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at asaq.run(:com.google.android.gms@250832025@25.08.32 (150700-731361394):8)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at java.lang.Thread.run(Thread.java:923)
+03-24 00:23:27.944 23883 24509 W GLSUser : Caused by: fjhk: Protocol message contained an invalid tag (zero).
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at fjel.l(:com.google.android.gms@250832025@25.08.32 (150700-731361394):43)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at fjij.c(:com.google.android.gms@250832025@25.08.32 (150700-731361394):394)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at fjij.i(:com.google.android.gms@250832025@25.08.32 (150700-731361394):8)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at fjgp.A(:com.google.android.gms@250832025@25.08.32 (150700-731361394):23)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at fjgk.f(:com.google.android.gms@250832025@25.08.32 (150700-731361394):3)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at fjeh.d(:com.google.android.gms@250832025@25.08.32 (150700-731361394):1)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at fjeh.c(:com.google.android.gms@250832025@25.08.32 (150700-731361394):3)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at fjeh.n(:com.google.android.gms@250832025@25.08.32 (150700-731361394):1)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at bxds.g(:com.google.android.gms@250832025@25.08.32 (150700-731361394):69)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	at bxds.b(:com.google.android.gms@250832025@25.08.32 (150700-731361394):11)
+03-24 00:23:27.944 23883 24509 W GLSUser : 	... 11 more
+03-24 00:23:27.949 23883 24509 W GLSUser : [DeviceKeyStore] Cannot load key: Device key file not found.
+03-24 00:23:28.141 24552 26569 E gapj    : *~*~*~ Previous channel {0} was garbage collected without being shut down! ~*~*~*
+03-24 00:23:28.141 24552 26569 E gapj    :     Make sure to call shutdown()/shutdownNow()
+03-24 00:23:28.141 24552 26569 E gapj    : java.lang.RuntimeException: ManagedChannel allocation site
+03-24 00:23:28.141 24552 26569 E gapj    : 	at gapi.<init>(:com.google.android.gms@250832025@25.08.32 (150700-731361394):21)
+03-24 00:23:28.141 24552 26569 E gapj    : 	at gapj.<init>(:com.google.android.gms@250832025@25.08.32 (150700-731361394):10)
+03-24 00:23:28.141 24552 26569 E gapj    : 	at gaph.a(:com.google.android.gms@250832025@25.08.32 (150700-731361394):260)
+03-24 00:23:28.141 24552 26569 E gapj    : 	at gaah.a(:com.google.android.gms@250832025@25.08.32 (150700-731361394):5)
+03-24 00:23:28.141 24552 26569 E gapj    : 	at bykg.g(:com.google.android.gms@250832025@25.08.32 (150700-731361394):81)
+03-24 00:23:28.141 24552 26569 E gapj    : 	at evop.a(:com.google.android.gms@250832025@25.08.32 (150700-731361394):219)
+03-24 00:23:28.141 24552 26569 E gapj    : 	at eksb.a(:com.google.android.gms@250832025@25.08.32 (150700-731361394):13)
+03-24 00:23:28.141 24552 26569 E gapj    : 	at esja.a(:com.google.android.gms@250832025@25.08.32 (150700-731361394):3)
+03-24 00:23:28.141 24552 26569 E gapj    : 	at esib.run(:com.google.android.gms@250832025@25.08.32 (150700-731361394):19)
+03-24 00:23:28.141 24552 26569 E gapj    : 	at esjc.run(:com.google.android.gms@250832025@25.08.32 (150700-731361394):5)
+03-24 00:23:28.141 24552 26569 E gapj    : 	at arvc.c(:com.google.android.gms@250832025@25.08.32 (150700-731361394):50)
+03-24 00:23:28.141 24552 26569 E gapj    : 	at arvc.run(:com.google.android.gms@250832025@25.08.32 (150700-731361394):76)
+03-24 00:23:28.141 24552 26569 E gapj    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-24 00:23:28.141 24552 26569 E gapj    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-24 00:23:28.141 24552 26569 E gapj    : 	at asaq.run(:com.google.android.gms@250832025@25.08.32 (150700-731361394):8)
+03-24 00:23:28.141 24552 26569 E gapj    : 	at java.lang.Thread.run(Thread.java:923)
+03-24 00:23:28.247 10149 10154 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:28.250 10153 10156 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:28.362   173   173 I servicemanager: Since 'apexservice' could not be found, trying to start it as a lazy AIDL service
+03-24 00:23:28.460 24552 25457 I cn_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@cf5237d
+03-24 00:23:28.485 24552  9574 I NotificationsModuleTask: Registering accounts to Chime Failed & Rescheduled for later. [CONTEXT service_id=358 ]
+03-24 00:23:28.491 23883 10040 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+03-24 00:23:28.629   485   485 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+03-24 00:23:28.629   485   485 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+03-24 00:23:28.912   173   173 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+03-24 00:23:28.923   173   173 I servicemanager: Tried to unregister apexservice, but there is about to be a client.
+03-24 00:23:29.067   489   489 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+03-24 00:23:29.067   489   489 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+03-24 00:23:29.675 23276 23475 I ActivityManager: Force stopping uk.ac.liv.catchit appid=10155 user=0: from pid 10205
+03-24 00:23:29.676 23276 23475 I ActivityManager: Killing 29589:uk.ac.liv.catchit/u0a155 (adj 900): stop uk.ac.liv.catchit due to from pid 10205
+03-24 00:23:29.740 30090 30090 I cr_ChildProcessService: Destroying ChildProcessService pid=30090
+03-24 00:23:29.746 23276 23475 W ActivityTaskManager: Force removing ActivityRecord{bb7fc95 u0 uk.ac.liv.catchit/.CatchIt t67 f}}: app died, no saved state
+03-24 00:23:29.752 30090 30090 I ocessService0:: System.exit called, status: 0
+03-24 00:23:29.752 30090 30090 I AndroidRuntime: VM exiting with result code 0, cleanup skipped.
+03-24 00:23:29.776 23276 23634 W WindowManager: Cannot find window which accessibility connection is added to
+03-24 00:23:29.786 23276 23475 I ActivityManager: Killing 30090:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:1/u0a155i2 (adj 0): isolated not needed
+03-24 00:23:29.789 10205 10207 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:29.790 23238 23238 I Zygote  : Process 29589 exited due to signal 9 (Killed)
+03-24 00:23:29.791 23276 23292 W Looper  : Slow dispatch took 116ms android.ui h=com.android.server.am.ActivityManagerService$UiHandler c=null m=53
+03-24 00:23:29.820 23276 23294 W ActivityManager: setHasOverlayUi called on unknown pid: 29589
+03-24 00:23:29.828 23276 23307 I libprocessgroup: Successfully killed process cgroup uid 10155 pid 29589 in 110ms
+03-24 00:23:29.835 23276 23307 I libprocessgroup: Successfully killed process cgroup uid 99002 pid 30090 in 1ms
+03-24 00:23:29.851 23505 23505 I Zygote  : Process 30090 exited cleanly (0)
+03-24 00:23:30.000   173   173 I servicemanager: Notifying apexservice they have clients: 1
+03-24 00:23:30.283 10213 10213 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:23:30.284 10213 10213 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:23:30.284 10213 10213 I AndroidRuntime: Using default boot image
+03-24 00:23:30.285 10213 10213 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:23:30.285 10213 10213 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:23:30.285 10213 10213 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:23:30.269 10213 10213 W app_process: type=1400 audit(0.0:1717): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:23:30.289 10213 10213 W app_process: Could not reserve sentinel fault page
+03-24 00:23:30.277 10213 10213 W app_process: type=1400 audit(0.0:1718): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:23:30.281 10213 10213 I chatty  : uid=2000(shell) main identical 1 line
+03-24 00:23:30.281 10213 10213 W app_process: type=1400 audit(0.0:1720): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:23:30.994 10213 10213 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:23:30.996 10213 10213 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:23:31.014 10213 10213 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-24 00:23:31.048 23276 23292 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras)} from uid 0
+03-24 00:23:31.059 23276 23475 W ActivityManager: Unable to start service Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } U=0: not found
+03-24 00:23:31.059 23276 23475 W RemoteAppPredictionService: could not bind to Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } using flags 67108865
+03-24 00:23:31.354 10249 10253 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:34.018 10284 10286 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:34.454 23276 23287 W System  : A resource failed to call release. 
+03-24 00:23:34.454 23276 23287 I chatty  : uid=1000(system) FinalizerDaemon identical 1 line
+03-24 00:23:34.454 23276 23287 W System  : A resource failed to call release. 
+03-24 00:23:34.728 10311 10313 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:34.999   173   173 I servicemanager: Notifying apexservice they have clients: 0
+03-24 00:23:35.015   173   173 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+03-24 00:23:38.461 10346 10348 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:38.757 23276 23855 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=uk.ac.liv.catchit/.CatchIt} from uid 2000
+03-24 00:23:38.782 10358 10360 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:38.873 23276 23306 W ActivityManager: Slow operation: 84ms so far, now at startProcess: returned from zygote!
+03-24 00:23:38.873 23276 23306 W ActivityManager: Slow operation: 84ms so far, now at startProcess: done updating battery stats
+03-24 00:23:38.873 23276 23306 W ActivityManager: Slow operation: 84ms so far, now at startProcess: building log message
+03-24 00:23:38.873 23276 23306 I ActivityManager: Start proc 10361:uk.ac.liv.catchit/u0a155 for pre-top-activity {uk.ac.liv.catchit/uk.ac.liv.catchit.CatchIt}
+03-24 00:23:38.874 23276 23306 W ActivityManager: Slow operation: 84ms so far, now at startProcess: starting to update pids map
+03-24 00:23:38.874 23276 23306 W ActivityManager: Slow operation: 85ms so far, now at startProcess: done updating pids map
+03-24 00:23:38.876 24247 24247 I ckkw    : onPause
+03-24 00:23:38.940 10361 10361 W .ac.liv.catchi: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:23:38.969 10361 10361 E .ac.liv.catchi: Not starting debugger since process cannot load the jdwp agent.
+03-24 00:23:38.995 23276 23855 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+03-24 00:23:38.995 23276 23855 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+03-24 00:23:38.995 23276 23855 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+03-24 00:23:38.995 23276 23855 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+03-24 00:23:38.995 23276 23855 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+03-24 00:23:38.995 23276 23855 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+03-24 00:23:38.995 23276 23855 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+03-24 00:23:38.995 23276 23855 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+03-24 00:23:38.995 23276 23855 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+03-24 00:23:38.995 23276 23855 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+03-24 00:23:38.996 23276 23855 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+03-24 00:23:38.996 23276 23855 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+03-24 00:23:38.996 23276 23855 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+03-24 00:23:38.996 23276 23855 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+03-24 00:23:38.996 23276 23855 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+03-24 00:23:38.996 23276 23855 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+03-24 00:23:38.996 23276 23855 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+03-24 00:23:38.996 23276 23855 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+03-24 00:23:38.996 23276 23855 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+03-24 00:23:38.996 23276 23855 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+03-24 00:23:39.074 23746 23760 W System  : A resource failed to call release. 
+03-24 00:23:39.075 23746 23760 I chatty  : uid=10137(com.google.android.apps.nexuslauncher) FinalizerDaemon identical 1 line
+03-24 00:23:39.076 23746 23760 W System  : A resource failed to call release. 
+03-24 00:23:39.140 10389 10391 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:39.315 10361 10361 I CordovaLog: Changing log level to DEBUG(3)
+03-24 00:23:39.315 10361 10361 I CordovaActivity: Apache Cordova native platform version 7.0.0 is starting
+03-24 00:23:39.454 10361 10361 I WebViewFactory: Loading com.google.android.webview version 134.0.6998.39 (code 699803936)
+03-24 00:23:39.485 10361 10361 E webviewchromiumloader: Failed to open relro file /data/misc/shared_relro/libwebviewchromium32.relro: No such file or directory
+03-24 00:23:39.485 10361 10361 W WebViewLibraryLoader: failed to load with relro file, proceeding without
+03-24 00:23:39.645 10361 10361 I cr_WVCFactoryProvider: version=134.0.6998.39 (699803936) minSdkVersion=29 isBundle=false multiprocess=true packageId=127
+03-24 00:23:39.810 10361 10407 E chromium: [0324/002339.803884:ERROR:variations_seed_loader.cc(39)] Seed missing signature.
+03-24 00:23:39.819 10361 10407 I chromium: [0324/002339.815338:INFO:variations_seed_loader.cc(67)] Failed to open file for reading.: No such file or directory (2)
+03-24 00:23:39.849 10409 10409 W webview_servic: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:23:39.852 23276 23306 I ActivityManager: Start proc 10409:com.google.android.webview:webview_service/u0a114 for service {com.google.android.webview/org.chromium.android_webview.services.VariationsSeedServer}
+03-24 00:23:39.873 10409 10409 E webview_servic: Not starting debugger since process cannot load the jdwp agent.
+03-24 00:23:39.904 10361 10361 I cr_LibraryLoader: Successfully loaded native library
+03-24 00:23:39.909 10361 10361 I cr_CachingUmaRecorder: Flushed 5 samples from 5 histograms, 0 samples were dropped.
+03-24 00:23:39.914 10409 10409 I LoadedApk: No resource references to update in package com.google.android.trichromelibrary
+03-24 00:23:39.916 10409 10409 I cr_WebViewApkApp: version=134.0.6998.39 (699803936) minSdkVersion=29 isBundle=false processName=com.google.android.webview:webview_service
+03-24 00:23:40.007 10361 10361 I cr_CombinedPProvider: #registerProvider() provider:WV.I8@199dc9d isPolicyCacheEnabled:false policyProvidersSize:0
+03-24 00:23:40.008 10361 10361 I cr_PolicyProvider: #setManagerAndSource() 0
+03-24 00:23:40.246 23276 23306 W ActivityManager: Slow operation: 194ms so far, now at startProcess: returned from zygote!
+03-24 00:23:40.246 23276 23306 W ActivityManager: Slow operation: 194ms so far, now at startProcess: done updating battery stats
+03-24 00:23:40.247 23276 23306 W ActivityManager: Slow operation: 194ms so far, now at startProcess: building log message
+03-24 00:23:40.247 23276 23306 I ActivityManager: Start proc 10432:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0i3 for  {uk.ac.liv.catchit/org.chromium.content.app.SandboxedProcessService0:0}
+03-24 00:23:40.247 23276 23306 W ActivityManager: Slow operation: 194ms so far, now at startProcess: starting to update pids map
+03-24 00:23:40.249 23276 23306 W ActivityManager: Slow operation: 196ms so far, now at startProcess: done updating pids map
+03-24 00:23:40.314 10432 10432 W ocessService0:: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:23:40.330 10361 10361 I cr_CombinedPProvider: #linkNativeInternal() 1
+03-24 00:23:40.341 10361 10361 I cr_AppResProvider: #getApplicationRestrictionsFromUserManager() Bundle[EMPTY_PARCEL]
+03-24 00:23:40.342 10361 10361 I cr_PolicyProvider: #notifySettingsAvailable() 0
+03-24 00:23:40.342 10361 10361 I cr_CombinedPProvider: #onSettingsAvailable() 0
+03-24 00:23:40.342 10361 10361 I cr_CombinedPProvider: #flushPolicies()
+03-24 00:23:40.347 10432 10432 E ocessService0:: Not starting debugger since process cannot load the jdwp agent.
+03-24 00:23:40.427 10432 10432 I LoadedApk: No resource references to update in package com.google.android.trichromelibrary
+03-24 00:23:40.446 10432 10432 I cr_WebViewApkApp: version=134.0.6998.39 (699803936) minSdkVersion=29 isBundle=false processName=com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0
+03-24 00:23:40.453 10432 10432 I cr_ChildProcessService: Creating new ChildProcessService pid=10432
+03-24 00:23:40.470 10432 10432 E webviewchromiumloader: Failed to open relro file /data/misc/shared_relro/libwebviewchromium32.relro: No such file or directory
+03-24 00:23:40.470 10432 10432 W WebViewLibraryLoader: failed to load with relro file, proceeding without
+03-24 00:23:40.527 10361 10361 I TetheringManager: registerTetheringEventCallback:uk.ac.liv.catchit
+03-24 00:23:41.792 10361 10459 W cr_media: getBluetoothAdapter() requires BLUETOOTH permission
+03-24 00:23:41.792 10361 10459 W cr_media: registerBluetoothIntentsIfNeeded: Requires BLUETOOTH permission
+03-24 00:23:42.137 10432 10449 I cr_LibraryLoader: Successfully loaded native library
+03-24 00:23:42.139 10432 10449 I cr_CachingUmaRecorder: Flushed 2 samples from 2 histograms, 0 samples were dropped.
+03-24 00:23:42.209 10432 10449 W SystemServiceRegistry: No service published for: uimode
+03-24 00:23:42.357 10409 10421 I webview_servic: Background young concurrent copying GC freed 23441(1417KB) AllocSpace objects, 2(40KB) LOS objects, 92% free, 1875KB/25MB, paused 19.920ms total 482.330ms
+03-24 00:23:42.370 10361 10524 I CameraManagerGlobal: Connecting to camera service
+03-24 00:23:42.372 10361 10361 I Choreographer: Skipped 50 frames!  The application may be doing too much work on its main thread.
+03-24 00:23:42.381   174   174 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+03-24 00:23:42.429 10361 10508 E chromium: [ERROR:gl_surface_egl.cc(156)] eglChooseConfig failed with error EGL_SUCCESS
+03-24 00:23:42.523 10432 10449 W chromium: [WARNING:runtime_features.cc(550)] Fenced frames cannot be enabled in this configuration. Use --enable-features=FencedFrames instead.
+03-24 00:23:42.524 10432 10449 W chromium: [WARNING:runtime_features.cc(575)] Topics cannot be enabled in this configuration. Use --enable-features=BrowsingTopics in addition.
+03-24 00:23:42.524 10432 10449 W chromium: [WARNING:runtime_features.cc(596)] SharedStorage cannot be enabled in this configuration. Use --enable-features=SharedStorageAPI in addition.
+03-24 00:23:42.600 10361 10508 E chromium: [ERROR:gl_surface_egl.cc(156)] eglChooseConfig failed with error EGL_SUCCESS
+03-24 00:23:42.613 10361 10395 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+03-24 00:23:42.617 23241 24182 W ServiceManager: Permission failure: android.permission.CAMERA_OPEN_CLOSE_LISTENER from uid=10155 pid=10361
+03-24 00:23:42.634 10361 10508 W chromium: [WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+03-24 00:23:42.653 10432 10442 I ocessService0:: Background concurrent copying GC freed 1663(178KB) AllocSpace objects, 1(16KB) LOS objects, 49% free, 1741KB/3482KB, paused 37.190ms total 362.685ms
+03-24 00:23:42.685 23883 24514 I FontLog : (REDACTED) Received query %s, URI %s
+03-24 00:23:42.686 23883 24514 I FontLog : (REDACTED) Query [%s] resolved to %s
+03-24 00:23:42.694   174   174 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+03-24 00:23:42.696 10361 10395 I Gralloc4: mapper 4.x is not supported
+03-24 00:23:42.714 23883 24514 I FontLog : (REDACTED) Font PFD returned from cache for %s
+03-24 00:23:42.714 23883 24514 I FontLog : (REDACTED) Fetch %s end status %s
+03-24 00:23:42.738 23276 23285 I system_server: Background young concurrent copying GC freed 373883(14MB) AllocSpace objects, 38(1184KB) LOS objects, 45% free, 18MB/34MB, paused 9.544ms total 99.748ms
+03-24 00:23:42.741 23883 24514 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+03-24 00:23:42.745 23276 23287 W System  : A resource failed to call release. 
+03-24 00:23:42.759 23883 24509 I FontLog : (REDACTED) Received query %s, URI %s
+03-24 00:23:42.759 23883 24509 I FontLog : (REDACTED) Query [%s] resolved to %s
+03-24 00:23:42.787 23883 24509 I FontLog : (REDACTED) Fetch %s end status %s
+03-24 00:23:42.793 23883 24509 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+03-24 00:23:42.797 23883 24509 I FontLog : (REDACTED) Received query %s, URI %s
+03-24 00:23:42.797 23883 24509 I FontLog : (REDACTED) Query [%s] resolved to %s
+03-24 00:23:42.798 23883 24509 I FontLog : (REDACTED) Font PFD returned from cache for %s
+03-24 00:23:42.798 23883 24509 I FontLog : (REDACTED) Fetch %s end status %s
+03-24 00:23:42.809 23883 24509 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+03-24 00:23:42.818 23883 24514 I FontLog : (REDACTED) Received query %s, URI %s
+03-24 00:23:42.818 23883 24514 I FontLog : (REDACTED) Query [%s] resolved to %s
+03-24 00:23:42.819 23883 24514 I FontLog : (REDACTED) Font PFD returned from cache for %s
+03-24 00:23:42.820 23883 24514 I FontLog : (REDACTED) Fetch %s end status %s
+03-24 00:23:42.831 23883 24514 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+03-24 00:23:42.837 23883 24514 I FontLog : (REDACTED) Received query %s, URI %s
+03-24 00:23:42.837 23883 24514 I FontLog : (REDACTED) Query [%s] resolved to %s
+03-24 00:23:42.839 23883 24514 I FontLog : (REDACTED) Font PFD returned from cache for %s
+03-24 00:23:42.840 23883 24514 I FontLog : (REDACTED) Fetch %s end status %s
+03-24 00:23:42.849 23883 24514 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+03-24 00:23:42.866 23883 10549 I SQLiteConnectionPool: The connection pool for /data/user/0/com.google.android.gms/databases/metadata.db has been closed but there are still 1 connections in use.  They will be closed as they are released back to the pool.
+03-24 00:23:42.878 23883 10550 W FontLog : Error updating last accessed time for {Google Sans, wdth 100.0, wght 500, ital 0.0, bestEffort false}, isVf false}. [CONTEXT service_id=132 ]
+03-24 00:23:42.878 23883 10550 W FontLog : java.lang.IllegalStateException: Cannot perform this operation because the connection pool has been closed.
+03-24 00:23:42.878 23883 10550 W FontLog : 	at android.database.sqlite.SQLiteConnectionPool.throwIfClosedLocked(SQLiteConnectionPool.java:1071)
+03-24 00:23:42.878 23883 10550 W FontLog : 	at android.database.sqlite.SQLiteConnectionPool.waitForConnection(SQLiteConnectionPool.java:763)
+03-24 00:23:42.878 23883 10550 W FontLog : 	at android.database.sqlite.SQLiteConnectionPool.acquireConnection(SQLiteConnectionPool.java:380)
+03-24 00:23:42.878 23883 10550 W FontLog : 	at android.database.sqlite.SQLiteSession.acquireConnection(SQLiteSession.java:896)
+03-24 00:23:42.878 23883 10550 W FontLog : 	at android.database.sqlite.SQLiteSession.executeForChangedRowCount(SQLiteSession.java:754)
+03-24 00:23:42.878 23883 10550 W FontLog : 	at android.database.sqlite.SQLiteStatement.executeUpdateDelete(SQLiteStatement.java:66)
+03-24 00:23:42.878 23883 10550 W FontLog : 	at android.database.sqlite.SQLiteDatabase.executeSql(SQLiteDatabase.java:1920)
+03-24 00:23:42.878 23883 10550 W FontLog : 	at android.database.sqlite.SQLiteDatabase.execSQL(SQLiteDatabase.java:1897)
+03-24 00:23:42.878 23883 10550 W FontLog : 	at bgog.run(:com.google.android.gms@250832025@25.08.32 (150700-731361394):59)
+03-24 00:23:42.878 23883 10550 W FontLog : 	at arvc.c(:com.google.android.gms@250832025@25.08.32 (150700-731361394):50)
+03-24 00:23:42.878 23883 10550 W FontLog : 	at arvc.run(:com.google.android.gms@250832025@25.08.32 (150700-731361394):76)
+03-24 00:23:42.878 23883 10550 W FontLog : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-24 00:23:42.878 23883 10550 W FontLog : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-24 00:23:42.878 23883 10550 W FontLog : 	at asaq.run(:com.google.android.gms@250832025@25.08.32 (150700-731361394):8)
+03-24 00:23:42.878 23883 10550 W FontLog : 	at java.lang.Thread.run(Thread.java:923)
+03-24 00:23:42.894 10361 10395 I OpenGLRenderer: Davey! duration=1357ms; Flags=1, IntendedVsync=47174484120551, Vsync=47175317453851, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=47175328961440, AnimationStart=47175329018240, PerformTraversalsStart=47175336986540, DrawStart=47175705171840, SyncQueued=47175705803140, SyncStart=47175715667940, IssueDrawCommandsStart=47175715775440, SwapBuffers=47175816517840, FrameCompleted=47175850989740, DequeueBufferDuration=290500, QueueBufferDuration=1614300, GpuCompleted=0, 
+03-24 00:23:43.030 10361 10395 I OpenGLRenderer: Davey! duration=1498ms; Flags=1, IntendedVsync=47174484120551, Vsync=47175317453851, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=47175328961440, AnimationStart=47175329018240, PerformTraversalsStart=47175336986540, DrawStart=47175924735140, SyncQueued=47175927524040, SyncStart=47175932255240, IssueDrawCommandsStart=47175933480540, SwapBuffers=47175951772440, FrameCompleted=47175986858740, DequeueBufferDuration=270800, QueueBufferDuration=1343200, GpuCompleted=0, 
+03-24 00:23:43.101 10559 10560 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:43.350 10570 10571 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:43.388 10361 10395 I OpenGLRenderer: Davey! duration=1690ms; Flags=1, IntendedVsync=47174484120551, Vsync=47175317453851, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=47175328961440, AnimationStart=47175329018240, PerformTraversalsStart=47175336986540, DrawStart=47176114724940, SyncQueued=47176114994340, SyncStart=47176285601740, IssueDrawCommandsStart=47176285836740, SwapBuffers=47176286548440, FrameCompleted=47176345406440, DequeueBufferDuration=528900, QueueBufferDuration=4507800, GpuCompleted=0, 
+03-24 00:23:43.687 23276 23304 I ActivityTaskManager: Displayed uk.ac.liv.catchit/.CatchIt: +4s785ms
+03-24 00:23:43.734 10361 10361 I Choreographer: Skipped 80 frames!  The application may be doing too much work on its main thread.
+03-24 00:23:43.845 24247 24247 I ckkw    : onStop
+03-24 00:23:44.281 10361 10467 I VideoCapabilities: Unsupported profile 4 for video/mp4v-es
+03-24 00:23:44.989 10643 10645 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:45.246 10666 10668 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:45.587 10678 10678 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:23:45.587 10678 10678 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:23:45.587 10678 10678 I AndroidRuntime: Using default boot image
+03-24 00:23:45.587 10678 10678 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:23:45.587 10678 10678 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:23:45.588 10678 10678 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:23:45.590 10678 10678 W app_process: Could not reserve sentinel fault page
+03-24 00:23:45.581 10678 10678 W app_process: type=1400 audit(0.0:1721): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:23:45.585 10678 10678 W app_process: type=1400 audit(0.0:1724): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:23:45.628 10432 10554 E chromium: [ERROR:tile_manager.cc(999)] WARNING: tile memory limits exceeded, some content may not draw
+03-24 00:23:45.631 10432 10554 E chromium: [ERROR:tile_manager.cc(999)] WARNING: tile memory limits exceeded, some content may not draw
+03-24 00:23:45.742 10432 10554 E chromium: [ERROR:tile_manager.cc(999)] WARNING: tile memory limits exceeded, some content may not draw
+03-24 00:23:45.750 10432 10554 E chromium: [ERROR:tile_manager.cc(999)] WARNING: tile memory limits exceeded, some content may not draw
+03-24 00:23:45.898 10361 10361 I cr_A11yState: Enabled accessibility services list updated. [io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService]
+03-24 00:23:45.899 10361 10361 I cr_A11yState: Informing listeners of changes.
+03-24 00:23:45.899 10361 10361 I cr_A11yState: New AccessibilityState: State{isScreenReaderEnabled=true, isTouchExplorationEnabled=false, isPerformGesturesEnabled=false, isAnyAccessibilityServiceEnabled=true, isAccessibilityToolPresent=true, isSpokenFeedbackServicePresent=true, isTextShowPasswordEnabled=true, isOnlyPasswordManagersEnabled=false}
+03-24 00:23:47.690 10678 10678 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:23:47.695 10678 10678 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:23:47.722 10678 10678 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-24 00:23:48.161 10728 10731 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:49.243 10761 10763 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:49.710 10780 10782 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:50.033 10795 10797 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:50.333 10810 10812 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:50.692 10824 10824 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:23:50.692 10824 10824 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:23:50.692 10824 10824 I AndroidRuntime: Using default boot image
+03-24 00:23:50.692 10824 10824 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:23:50.692 10824 10824 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:23:50.693 10824 10824 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:23:50.695 10824 10824 W app_process: Could not reserve sentinel fault page
+03-24 00:23:50.689 10824 10824 W app_process: type=1400 audit(0.0:1725): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:23:51.349 10824 10824 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:23:51.351 10824 10824 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:23:51.385 10824 10824 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-24 00:23:52.894 10865 10867 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:53.307 24116 24593 I bbdx    : (REDACTED) getHotwordActive::active query: %s, watch: %s, devices connected: %s
+03-24 00:23:53.403 23276 23287 W System  : A resource failed to call release. 
+03-24 00:23:53.404 23276 23287 I chatty  : uid=1000(system) FinalizerDaemon identical 2 lines
+03-24 00:23:53.404 23276 23287 W System  : A resource failed to call release. 
+03-24 00:23:53.666 10897 10900 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:54.312 10939 10941 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:54.647 10954 10956 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:55.007 10966 10966 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:23:55.007 10966 10966 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:23:55.007 10966 10966 I AndroidRuntime: Using default boot image
+03-24 00:23:55.007 10966 10966 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:23:55.007 10966 10966 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:23:55.008 10966 10966 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:23:55.001 10966 10966 W app_process: type=1400 audit(0.0:1729): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:23:55.005 10966 10966 I chatty  : uid=2000(shell) main identical 2 lines
+03-24 00:23:55.005 10966 10966 W app_process: type=1400 audit(0.0:1732): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:23:55.086 10966 10966 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:23:55.090 10966 10966 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:23:55.103 10966 10966 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-24 00:23:56.583 11007 11009 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:56.920 11022 11024 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:57.236 11037 11039 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:57.581 11054 11056 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:23:58.049 11066 11066 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:23:58.049 11066 11066 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:23:58.049 11066 11066 I AndroidRuntime: Using default boot image
+03-24 00:23:58.049 11066 11066 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:23:58.049 11066 11066 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:23:58.049 11066 11066 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:23:58.045 11066 11066 W app_process: type=1400 audit(0.0:1733): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:23:58.137 11066 11066 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:23:58.139 11066 11066 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:23:58.154 11066 11066 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-24 00:23:59.627 11108 11110 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:00.988 11168 11168 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:24:00.989 11168 11168 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:24:00.989 11168 11168 I AndroidRuntime: Using default boot image
+03-24 00:24:00.989 11168 11168 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:24:00.989 11168 11168 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:24:00.989 11168 11168 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:24:00.981 11168 11168 W app_process: type=1400 audit(0.0:1737): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:24:00.985 11168 11168 I chatty  : uid=2000(shell) main identical 2 lines
+03-24 00:24:00.985 11168 11168 W app_process: type=1400 audit(0.0:1740): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:24:01.165 11168 11168 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:24:01.168 11168 11168 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:24:01.188 11168 11168 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-24 00:24:02.612 11206 11208 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:06.288 11239 11241 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:06.626 11256 11258 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:06.934 11271 11273 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:07.293 11286 11288 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:07.701 11300 11300 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:24:07.701 11300 11300 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:24:07.701 11300 11300 I AndroidRuntime: Using default boot image
+03-24 00:24:07.702 11300 11300 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:24:07.702 11300 11300 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:24:07.702 11300 11300 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:24:07.697 11300 11300 W app_process: type=1400 audit(0.0:1741): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:24:08.354 11300 11300 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:24:08.358 11300 11300 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:24:08.375 11300 11300 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-24 00:24:08.909 11323 11327 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:08.973 10361 10361 I AssistStructure: Flattened final assist data: 1500 bytes, containing 1 windows, 3 views
+03-24 00:24:09.095   174   174 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+03-24 00:24:09.097  9624  9716 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+03-24 00:24:09.149 23883 23883 I GmsCoreXrpcWrapper: (REDACTED) Returning a channel provider with trafficStatsTag=%d trafficStatsUid=%d
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: Failed to register flag update listener on flag read for: com.google.android.gms.autofill which may lead to stale flags.
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: java.util.concurrent.ExecutionException: dznz: 17: 17: API: Phenotype.API is not available on this device. Connection failed with: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at esez.s(:com.google.android.gms@250832025@25.08.32 (150700-731361394):21)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at esez.get(:com.google.android.gms@250832025@25.08.32 (150700-731361394):3)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at esje.a(:com.google.android.gms@250832025@25.08.32 (150700-731361394):2)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at eshu.r(:com.google.android.gms@250832025@25.08.32 (150700-731361394):10)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at dzrc.run(:com.google.android.gms@250832025@25.08.32 (150700-731361394):3)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at arvc.c(:com.google.android.gms@250832025@25.08.32 (150700-731361394):50)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at arvc.run(:com.google.android.gms@250832025@25.08.32 (150700-731361394):97)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at asaq.run(:com.google.android.gms@250832025@25.08.32 (150700-731361394):8)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at java.lang.Thread.run(Thread.java:923)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: Caused by: dznz: 17: 17: API: Phenotype.API is not available on this device. Connection failed with: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at dzob.a(:com.google.android.gms@250832025@25.08.32 (150700-731361394):13)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at eseh.d(:com.google.android.gms@250832025@25.08.32 (150700-731361394):3)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at esej.run(:com.google.android.gms@250832025@25.08.32 (150700-731361394):130)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at esgp.execute(:com.google.android.gms@250832025@25.08.32 (150700-731361394):1)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at esez.h(:com.google.android.gms@250832025@25.08.32 (150700-731361394):1)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at esez.l(:com.google.android.gms@250832025@25.08.32 (150700-731361394):101)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at esez.p(:com.google.android.gms@250832025@25.08.32 (150700-731361394):19)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at dsfy.ht(:com.google.android.gms@250832025@25.08.32 (150700-731361394):35)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at dipx.run(:com.google.android.gms@250832025@25.08.32 (150700-731361394):14)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at arul.c(:com.google.android.gms@250832025@25.08.32 (150700-731361394):12)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at bgva.run(:com.google.android.gms@250832025@25.08.32 (150700-731361394):5)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at esgp.execute(:com.google.android.gms@250832025@25.08.32 (150700-731361394):1)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at bguz.execute(:com.google.android.gms@250832025@25.08.32 (150700-731361394):10)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at dipy.b(:com.google.android.gms@250832025@25.08.32 (150700-731361394):18)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at diqn.b(:com.google.android.gms@250832025@25.08.32 (150700-731361394):36)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at diqp.d(:com.google.android.gms@250832025@25.08.32 (150700-731361394):25)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at aqhd.c(:com.google.android.gms@250832025@25.08.32 (150700-731361394):8)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at aqjw.q(:com.google.android.gms@250832025@25.08.32 (150700-731361394):48)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at aqjw.d(:com.google.android.gms@250832025@25.08.32 (150700-731361394):10)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at aqjw.g(:com.google.android.gms@250832025@25.08.32 (150700-731361394):211)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at aqjw.onConnectionFailed(:com.google.android.gms@250832025@25.08.32 (150700-731361394):2)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at aqjy.run(:com.google.android.gms@250832025@25.08.32 (150700-731361394):86)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at android.os.Handler.handleCallback(Handler.java:938)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at bxil.lP(:com.google.android.gms@250832025@25.08.32 (150700-731361394):1)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at bxil.dispatchMessage(:com.google.android.gms@250832025@25.08.32 (150700-731361394):138)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at android.os.Looper.loop(Looper.java:223)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: Caused by: aqfy: 17: API: Phenotype.API is not available on this device. Connection failed with: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	at aqhd.c(:com.google.android.gms@250832025@25.08.32 (150700-731361394):3)
+03-24 00:24:09.177 23883 23914 W MobStoreFlagStore: 	... 11 more
+03-24 00:24:09.214   174   174 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+03-24 00:24:09.214  9624  9716 I Gralloc4: mapper 4.x is not supported
+03-24 00:24:09.409 23883 23883 I GmsCoreXrpcWrapper: (REDACTED) Returning a channel provider with trafficStatsTag=%d trafficStatsUid=%d
+03-24 00:24:09.472 11334 11338 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:09.849 23276 23276 E RemoteAugmentedAutofillService: Bad service name for flags 1048704: com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiAugmentedAutofillService
+03-24 00:24:10.309 11366 11368 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:11.345 11383 11385 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:11.993 11410 11412 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:13.833 11472 11474 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:15.309 11489 11491 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:16.385 11506 11509 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:17.480 11566 11568 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:17.801 11586 11589 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:17.811 11587 11592 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:18.154 11610 11610 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:24:18.154 11610 11610 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:24:18.154 11610 11610 I AndroidRuntime: Using default boot image
+03-24 00:24:18.154 11610 11610 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:24:18.154 11610 11610 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:24:18.155 11610 11610 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:24:18.149 11610 11610 W app_process: type=1400 audit(0.0:1745): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:24:18.853 11617 11619 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:18.884 11610 11610 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:24:18.886 11610 11610 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:24:18.907 11610 11610 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-24 00:24:19.698 11653 11655 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:19.886 11666 11668 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:21.013 11683 11685 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:22.870 11757 11759 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:23.520 11774 11776 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:24.585 11791 11793 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:26.531 11835 11837 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:26.898 11852 11854 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:27.027 11865 11867 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:27.233 11882 11884 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:27.517 11897 11899 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:27.880 11910 11910 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:24:27.880 11910 11910 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:24:27.880 11910 11910 I AndroidRuntime: Using default boot image
+03-24 00:24:27.880 11910 11910 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:24:27.880 11910 11910 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:24:27.880 11910 11910 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:24:27.877 11910 11910 W app_process: type=1400 audit(0.0:1749): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:24:28.520 11919 11921 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:28.666   485   485 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+03-24 00:24:28.666   485   485 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+03-24 00:24:28.771 11910 11910 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:24:28.773 11910 11910 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:24:28.795 11910 11910 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-24 00:24:29.132   489   489 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+03-24 00:24:29.132   489   489 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+03-24 00:24:29.627 11955 11958 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:29.678 11960 11961 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:30.947 11982 11984 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:32.140 12011 12013 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:32.460 12030 12032 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:32.788 12056 12058 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:34.497 12088 12090 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:35.998 12108 12111 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:36.398 12134 12136 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:36.698 12149 12151 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:37.006 12166 12168 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:37.307 12180 12183 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:37.418 12192 12194 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:37.665 12208 12208 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:24:37.666 12208 12208 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:24:37.666 12208 12208 I AndroidRuntime: Using default boot image
+03-24 00:24:37.666 12208 12208 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:24:37.666 12208 12208 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:24:37.666 12208 12208 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:24:37.661 12208 12208 W app_process: type=1400 audit(0.0:1753): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:24:37.746 12208 12208 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:24:37.749 12208 12208 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:24:37.767 12208 12208 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-24 00:24:39.804 12263 12265 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:40.994 12292 12294 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:41.368 12313 12315 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:41.736 12336 12338 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:45.311 12404 12407 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:45.320 12405 12409 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:45.578 12429 12431 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:45.835 12444 12446 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:46.155 12461 12463 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:46.313 12476 12478 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:46.477 12484 12484 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:24:46.477 12484 12484 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:24:46.477 12484 12484 I AndroidRuntime: Using default boot image
+03-24 00:24:46.477 12484 12484 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:24:46.477 12484 12484 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:24:46.477 12484 12484 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:24:46.473 12484 12484 W app_process: type=1400 audit(0.0:1757): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:24:46.572 12484 12484 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:24:46.574 12484 12484 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:24:46.590 12484 12484 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-24 00:24:47.295 12513 12515 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:47.361 12519 12520 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:48.618 12541 12543 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:49.828 12585 12587 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:50.457 12612 12614 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:51.120 12629 12631 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:52.632 12646 12648 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:53.305 24116 24387 I bbdx    : (REDACTED) getHotwordActive::active query: %s, watch: %s, devices connected: %s
+03-24 00:24:54.521 12707 12709 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:54.839 12722 12724 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:55.134 12742 12744 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:55.202 12748 12751 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:55.530 12766 12766 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:24:55.531 12766 12766 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:24:55.531 12766 12766 I AndroidRuntime: Using default boot image
+03-24 00:24:55.531 12766 12766 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:24:55.531 12766 12766 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:24:55.531 12766 12766 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:24:55.525 12766 12766 W app_process: type=1400 audit(0.0:1761): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:24:55.618 12766 12766 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:24:55.619 12766 12766 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:24:55.633 12766 12766 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-24 00:24:56.185 12786 12787 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:57.298 12819 12821 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:58.352 12836 12838 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:58.926 12865 12867 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:59.540 12892 12894 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:24:59.763 12909 12911 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:02.137 23276 25575 W AppOps  : Noting op not finished: uid 10108 pkg com.google.android.gms code 79 startTime of in progress event=1742769920066
+03-24 00:25:02.141 23276 25575 W AppOps  : Noting op not finished: uid 10108 pkg com.google.android.gms code 79 startTime of in progress event=1742769920065
+03-24 00:25:02.168 23276 23855 W AppOps  : Noting op not finished: uid 10108 pkg com.google.android.gms code 79 startTime of in progress event=1742769920066
+03-24 00:25:02.187 23883 24630 I ActivityScheduler: nextTriggerTime: 47493235, in 238100ms, detectorType: 39, FULL_TYPE alarmWindowMillis: 80000
+03-24 00:25:02.807 12948 12950 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:03.529 12990 12992 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:04.173 13022 13024 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:04.568 13049 13049 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:25:04.568 13049 13049 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:25:04.568 13049 13049 I AndroidRuntime: Using default boot image
+03-24 00:25:04.569 13049 13049 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:25:04.569 13049 13049 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:25:04.569 13049 13049 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:25:04.565 13049 13049 W app_process: type=1400 audit(0.0:1765): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:25:04.650 13049 13049 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:25:04.652 13049 13049 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:25:04.671 13049 13049 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-24 00:25:05.354 13075 13078 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:05.379 13080 13082 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:06.718 13104 13106 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:07.924 13133 13135 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:08.145 13148 13150 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:08.566 13175 13177 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:09.134 13192 13194 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:10.204 13209 13211 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:11.682 13226 13228 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:12.219 13253 13255 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:12.570 13270 13272 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:12.914 13285 13287 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:13.211 13302 13305 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:13.259 13310 13313 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:13.603 13327 13327 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:25:13.603 13327 13327 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:25:13.603 13327 13327 I AndroidRuntime: Using default boot image
+03-24 00:25:13.603 13327 13327 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:25:13.603 13327 13327 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:25:13.603 13327 13327 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:25:13.606 13327 13327 W app_process: Could not reserve sentinel fault page
+03-24 00:25:13.597 13327 13327 W app_process: type=1400 audit(0.0:1769): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:25:13.601 13327 13327 I chatty  : uid=2000(shell) main identical 2 lines
+03-24 00:25:13.601 13327 13327 W app_process: type=1400 audit(0.0:1772): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:25:13.688 13327 13327 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:25:13.689 13327 13327 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:25:13.705 13327 13327 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-24 00:25:15.249 13381 13383 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:16.741 13407 13409 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:17.589 13454 13456 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:18.179 13471 13473 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:19.307 13488 13490 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:21.181 13532 13534 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:21.464 13549 13551 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:21.691 13564 13568 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:22.362 13606 13606 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:25:22.362 13606 13606 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:25:22.362 13606 13606 I AndroidRuntime: Using default boot image
+03-24 00:25:22.362 13606 13606 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:25:22.362 13606 13606 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:25:22.362 13606 13606 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:25:22.357 13606 13606 W app_process: type=1400 audit(0.0:1773): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:25:22.445 13606 13606 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:25:22.448 13606 13606 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:25:22.462 13606 13606 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-24 00:25:23.173 13644 13646 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:23.899 13659 13661 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:24.969 13676 13678 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:26.335 13747 13749 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:27.413 13764 13766 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:28.479 13781 13783 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:28.685   485   485 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+03-24 00:25:28.685   485   485 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+03-24 00:25:29.146   489   489 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+03-24 00:25:29.146   489   489 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+03-24 00:25:29.962 13813 13815 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:30.075 13822 13824 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:30.378 13841 13843 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:30.684 13858 13860 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:30.995 13873 13875 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:31.382 13885 13885 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:25:31.382 13885 13885 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:25:31.382 13885 13885 I AndroidRuntime: Using default boot image
+03-24 00:25:31.382 13885 13885 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:25:31.382 13885 13885 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:25:31.382 13885 13885 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:25:31.385 13885 13885 W app_process: Could not reserve sentinel fault page
+03-24 00:25:31.377 13885 13885 W app_process: type=1400 audit(0.0:1777): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:25:31.432 13892 13894 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:31.458 13885 13885 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:25:31.460 13885 13885 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:25:31.475 13885 13885 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-24 00:25:32.237 13925 13928 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:32.525 13943 13944 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:33.565 13962 13964 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:34.578 13988 13990 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:34.759 14004 14008 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:37.533 14069 14071 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:38.580 14086 14088 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:39.050 14113 14115 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:39.651 14145 14147 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:39.971 14163 14165 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:40.020 14168 14172 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:40.290 14187 14187 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:25:40.290 14187 14187 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:25:40.290 14187 14187 I AndroidRuntime: Using default boot image
+03-24 00:25:40.293 14187 14187 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:25:40.293 14187 14187 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:25:40.295 14187 14187 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:25:40.297 14187 14187 W app_process: Could not reserve sentinel fault page
+03-24 00:25:40.285 14187 14187 W app_process: type=1400 audit(0.0:1781): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:25:40.289 14187 14187 I chatty  : uid=2000(shell) main identical 2 lines
+03-24 00:25:40.289 14187 14187 W app_process: type=1400 audit(0.0:1784): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:25:40.381 14187 14187 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:25:40.383 14187 14187 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:25:40.404 14187 14187 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-24 00:25:41.197 14221 14223 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:42.478 14243 14245 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:43.516 14269 14271 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:43.722 14287 14289 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:44.507 14327 14329 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:46.000 14348 14350 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:46.355   174   174 E SELinux : avc:  denied  { find } for interface=android.hardware.memtrack::IMemtrack sid=u:r:gmscore_app:s0:c512,c768 pid=10041 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:hal_memtrack_hwservice:s0 tclass=hwservice_manager permissive=0
+03-24 00:25:46.356 10041 10170 E memtrack: Couldn't load memtrack module
+03-24 00:25:48.026 14396 14398 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:48.312 14411 14413 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:48.434 14424 14426 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:48.605 14441 14443 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:48.889 14458 14460 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:49.192 14470 14470 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:25:49.192 14470 14470 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:25:49.193 14470 14470 I AndroidRuntime: Using default boot image
+03-24 00:25:49.193 14470 14470 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:25:49.193 14470 14470 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:25:49.193 14470 14470 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:25:49.189 14470 14470 W app_process: type=1400 audit(0.0:1785): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:25:49.313 14470 14470 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:25:49.315 14470 14470 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:25:49.353 14470 14470 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-24 00:25:49.569 14490 14492 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:50.917 14526 14528 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:52.411 14552 14554 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:52.596 14568 14572 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:53.269 14599 14601 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:53.303 24116 24387 I bbdx    : (REDACTED) getHotwordActive::active query: %s, watch: %s, devices connected: %s
+03-24 00:25:53.884 14614 14616 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:55.402 14633 14635 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:56.857 14665 14668 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:57.286 14693 14695 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:57.544 14710 14712 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:57.824 14725 14727 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:25:58.118 14737 14737 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:25:58.118 14737 14737 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:25:58.118 14737 14737 I AndroidRuntime: Using default boot image
+03-24 00:25:58.118 14737 14737 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:25:58.118 14737 14737 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:25:58.118 14737 14737 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:25:58.113 14737 14737 W app_process: type=1400 audit(0.0:1789): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:25:58.217 14737 14737 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:25:58.221 14737 14737 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:25:58.246 14737 14737 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-24 00:25:59.781 14792 14794 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:00.796 14808 14810 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:01.442 14837 14839 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:02.176 14868 14871 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:02.237 14876 14879 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:03.246 14898 14900 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:04.761 14915 14917 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:05.848 14944 14946 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:06.217 14969 14972 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:06.433 14989 14991 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:06.728 15006 15008 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:07.042 15018 15018 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:26:07.042 15018 15018 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:26:07.042 15018 15018 I AndroidRuntime: Using default boot image
+03-24 00:26:07.042 15018 15018 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:26:07.042 15018 15018 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:26:07.042 15018 15018 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:26:07.037 15018 15018 W app_process: type=1400 audit(0.0:1793): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:26:07.145 15018 15018 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:26:07.147 15018 15018 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:26:07.162 15018 15018 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-24 00:26:07.244 15038 15040 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:07.901 15058 15060 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:10.212 15098 15100 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:10.386 15117 15119 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:10.966 15144 15146 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:13.222 15178 15180 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:14.638 15211 15213 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:14.705 15220 15222 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:15.275 15254 15256 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:15.774 15282 15284 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:16.121 15299 15299 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:26:16.121 15299 15299 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:26:16.121 15299 15299 I AndroidRuntime: Using default boot image
+03-24 00:26:16.121 15299 15299 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:26:16.121 15299 15299 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:26:16.121 15299 15299 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:26:16.117 15299 15299 W app_process: type=1400 audit(0.0:1797): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:26:16.216 15299 15299 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:26:16.217 15299 15299 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:26:16.232 15299 15299 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-24 00:26:16.958 15324 15325 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:17.109 15334 15338 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:17.902 15351 15353 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:19.589 15397 15399 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:20.250 15425 15428 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:23.370 15475 15477 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:23.836 15504 15506 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:24.093 15519 15521 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:24.362 15539 15542 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:24.371 15541 15544 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:24.638 15564 15566 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:25.010 15578 15578 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:26:25.010 15578 15578 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:26:25.010 15578 15578 I AndroidRuntime: Using default boot image
+03-24 00:26:25.010 15578 15578 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:26:25.010 15578 15578 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:26:25.010 15578 15578 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:26:25.013 15578 15578 W app_process: Could not reserve sentinel fault page
+03-24 00:26:25.005 15578 15578 W app_process: type=1400 audit(0.0:1801): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:26:25.088 15578 15578 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:26:25.090 15578 15578 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:26:25.105 15578 15578 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-24 00:26:25.416 15599 15600 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:25.873 15619 15621 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:26.705 15632 15634 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:27.688 15649 15651 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:28.355 15678 15680 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:28.722 15698 15701 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:28.746   485   485 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+03-24 00:26:28.746   485   485 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+03-24 00:26:29.029 15720 15721 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:29.204   489   489 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+03-24 00:26:29.205   489   489 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+03-24 00:26:29.704 15738 15740 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:31.185 15755 15757 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:32.758 15789 15791 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:32.799 15794 15796 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:33.135 15816 15818 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:33.496 15831 15833 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:33.856 15848 15850 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:34.257 15863 15863 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:26:34.257 15863 15863 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:26:34.257 15863 15863 I AndroidRuntime: Using default boot image
+03-24 00:26:34.257 15863 15863 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:26:34.257 15863 15863 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:26:34.257 15863 15863 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:26:34.260 15863 15863 W app_process: Could not reserve sentinel fault page
+03-24 00:26:34.253 15863 15863 W app_process: type=1400 audit(0.0:1805): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:26:34.349 15863 15863 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:26:34.351 15863 15863 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:26:34.367 15863 15863 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-24 00:26:35.230 15910 15912 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:36.376 15931 15933 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:37.632 15973 15977 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:38.187 16002 16004 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:39.001 16019 16021 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:40.412 16036 16038 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:41.934 16075 16077 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:42.305 16097 16099 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:42.619 16112 16114 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:42.951 16129 16131 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:43.343 16141 16141 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:26:43.343 16141 16141 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:26:43.343 16141 16141 I AndroidRuntime: Using default boot image
+03-24 00:26:43.343 16141 16141 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:26:43.343 16141 16141 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:26:43.344 16141 16141 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:26:43.346 16141 16141 W app_process: Could not reserve sentinel fault page
+03-24 00:26:43.337 16141 16141 W app_process: type=1400 audit(0.0:1809): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:26:43.341 16141 16141 I chatty  : uid=2000(shell) main identical 2 lines
+03-24 00:26:43.341 16141 16141 W app_process: type=1400 audit(0.0:1812): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:26:43.437 16141 16141 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:26:43.439 16141 16141 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:26:43.458 16141 16141 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+03-24 00:26:44.372 16179 16184 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:45.660 16210 16212 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:46.706 16236 16238 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:47.644 16283 16285 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:48.155 16298 16300 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:49.652 16315 16317 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:51.258 16361 16363 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:51.555 16376 16378 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:51.641 16387 16389 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:51.803 16406 16408 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:52.100 16423 16425 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+03-24 00:26:52.403 16435 16435 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+03-24 00:26:52.403 16435 16435 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+03-24 00:26:52.403 16435 16435 I AndroidRuntime: Using default boot image
+03-24 00:26:52.403 16435 16435 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+03-24 00:26:52.403 16435 16435 I AndroidRuntime: Leaving lock profiling enabled
+03-24 00:26:52.403 16435 16435 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+03-24 00:26:52.397 16435 16435 W app_process: type=1400 audit(0.0:1813): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:26:52.401 16435 16435 I chatty  : uid=2000(shell) main identical 2 lines
+03-24 00:26:52.401 16435 16435 W app_process: type=1400 audit(0.0:1816): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=9388 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+03-24 00:26:52.491 16435 16435 W app_process: Unexpected CPU variant for X86 using defaults: x86
+03-24 00:26:52.493 16435 16435 I app_process: The ClassLoaderContext is a special shared library.
+03-24 00:26:52.526 16435 16435 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes

@@ -1,0 +1,1 @@
+[['Catch It. Check It. Change It.', 4], ['logo', 7], ['Set up your security PIN', 9], ['To protect your personal information, Catch it requires a 4-digit security PIN to access the app.', 10], ['1234, Choose 4-digit PIN', 13], ['Set PIN', 14]]

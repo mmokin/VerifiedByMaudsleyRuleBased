@@ -1,0 +1,40 @@
+{  
+  "credentials": [    
+    {      
+      "username": "N/A",      
+      "password": "N/A"    
+    }  
+  ],  
+  "critical_sections": [    
+    {      
+      "name": "N/A",      
+      "keywords": ["N/A"]    
+    }  
+  ],  
+  "api_keys": {    
+    "openai": "YOUR_OPENAI_API_KEY_HERE"  
+  },  
+  "app_notes": [    
+    {      
+      "notes": "N/A"    
+    }  
+  ],  
+  "assessments": {    
+    "color_report": true,    
+    "navigation_report": true,    
+    "button_report": false  
+  },  
+  "droidbot": {    
+    "timeout": 120,    
+    "event_count": 20,    
+    "policy": "dfs",    
+    "device_serial": "",    
+    "random_input": false,    
+    "interval": 3  
+  },  
+  "memory_settings": {    
+    "avoid_revisits": true,    
+    "use_app_notes": false,    
+    "baseline_data_path": "memory/baseline_data.json"  
+  }
+}

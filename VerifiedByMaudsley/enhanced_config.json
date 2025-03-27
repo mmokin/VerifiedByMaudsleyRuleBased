@@ -1,0 +1,71 @@
+{
+  "credentials": [
+    {
+      "username": "test_user",
+      "password": "test_password"
+    }
+  ],
+  "critical_sections": [
+    {
+      "name": "Login",
+      "keywords": ["login", "sign in", "signin", "username", "password"]
+    },
+    {
+      "name": "Settings",
+      "keywords": ["settings", "preferences", "configure"]
+    },
+    {
+      "name": "Profile",
+      "keywords": ["profile", "account", "personal"]
+    }
+  ],
+  "app_notes": [
+    {
+      "notes": "This is a test app for the looper navigation pattern"
+    }
+  ],
+  "task": {
+    "type": "critical_sections_exploration",
+    "sections": [
+      {
+        "name": "Login",
+        "keywords": ["login", "sign in", "signin", "username", "password"]
+      },
+      {
+        "name": "Settings",
+        "keywords": ["settings", "preferences", "configure"]
+      },
+      {
+        "name": "Profile",
+        "keywords": ["profile", "account", "personal"]
+      }
+    ],
+    "memory_enabled": true
+  },
+  "assessments": {
+    "color_report": true,
+    "navigation_report": true,
+    "button_report": true,
+    "use_opencv_color_analysis": true
+  },
+  "droidbot": {
+    "timeout": 300,
+    "event_count": 100,
+    "policy": "task",
+    "device_serial": "emulator-5554",
+    "random_input": false,
+    "interval": 1,
+    "use_cv": false,
+    "is_emulator": true,
+    "disable_minicap": true,
+    "debug_mode": false
+  },
+  "memory_settings": {
+    "avoid_revisits": true,
+    "use_app_notes": true,
+    "baseline_data_path": "memory/baseline_data.json"
+  },
+  "api_keys": {
+    "openai": "YOUR_OPENAI_API_KEY_HERE"
+  }
+}

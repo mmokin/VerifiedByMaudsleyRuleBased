@@ -1,0 +1,12 @@
+{
+  "tag": "2025-03-19_002444",
+  "event": {
+    "event_type": "kill_app",
+    "log_lines": null,
+    "prompt": null,
+    "stop_intent": "am force-stop io.github.ylimit.benchapp"
+  },
+  "start_state": "7d153a034817a791d15796dee33a25fd8f194eff2f61f718bea7b396beecc4bb",
+  "stop_state": "7d153a034817a791d15796dee33a25fd8f194eff2f61f718bea7b396beecc4bb",
+  "event_str": "KillAppEvent()"
+}
