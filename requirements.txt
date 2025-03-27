@@ -1,0 +1,7 @@
+pyvis
+treelib
+pyyaml
+torch
+InstructorEmbedding
+sentence_transformers
+telnetlib3
